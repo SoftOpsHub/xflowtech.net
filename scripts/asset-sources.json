@@ -1,0 +1,292 @@
+{
+  "note": "seed list \u2014 alt text refined in content modules",
+  "assets": [
+    {
+      "key": "mano-icon",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2016/03/mano-icon.png",
+      "alt": "mano icon"
+    },
+    {
+      "key": "cropped-unnamed",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2019/07/cropped-unnamed-2.png",
+      "alt": "cropped unnamed"
+    },
+    {
+      "key": "cropped-unnamed-alt",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2019/07/cropped-unnamed.png",
+      "alt": "cropped unnamed alt"
+    },
+    {
+      "key": "etsi-icon",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2023/03/etsi-icon.png",
+      "alt": "etsi icon"
+    },
+    {
+      "key": "sonic-icon",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2023/03/sonic-icon.png",
+      "alt": "sonic icon"
+    },
+    {
+      "key": "vulnerability-scan-services-icon",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2023/03/vulnerability-scan-services-icon.png",
+      "alt": "vulnerability scan services icon"
+    },
+    {
+      "key": "xflow-logo-white",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2023/03/xflow-logo-white.png",
+      "alt": "xflow logo white"
+    },
+    {
+      "key": "xflow-software-technology",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2023/04/xflow-software-technology.png",
+      "alt": "xflow software technology"
+    },
+    {
+      "key": "dell-technologies-logo",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2023/07/Dell_Technologies_logo.svg_.png",
+      "alt": "dell technologies logo"
+    },
+    {
+      "key": "sonic-logo",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2023/07/sonic-logo-1024x437-1.png",
+      "alt": "sonic logo"
+    },
+    {
+      "key": "ai-icon",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2023/12/ai-icon.png",
+      "alt": "ai icon"
+    },
+    {
+      "key": "cyber-security-icon",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2024/06/cyber-security-icon.png",
+      "alt": "cyber security icon"
+    },
+    {
+      "key": "logo-ambile",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/02/LOGO-AMBILE.jpg",
+      "alt": "logo ambile"
+    },
+    {
+      "key": "api-dev",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/api-dev.svg",
+      "alt": "api dev"
+    },
+    {
+      "key": "arcgis",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/arcgis-min.svg",
+      "alt": "arcgis"
+    },
+    {
+      "key": "automation",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/automation.svg",
+      "alt": "automation"
+    },
+    {
+      "key": "camara-icon-svg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/camara_icon_svg.svg",
+      "alt": "camara icon svg"
+    },
+    {
+      "key": "camara-logo",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/camara-logo.jpg",
+      "alt": "camara logo"
+    },
+    {
+      "key": "cloud-cservice",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/cloud-cservice.svg",
+      "alt": "cloud cservice"
+    },
+    {
+      "key": "databases-symbol",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/databases-symbol.svg",
+      "alt": "databases symbol"
+    },
+    {
+      "key": "dpi-icon",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/DPI_icon.svg",
+      "alt": "dpi icon"
+    },
+    {
+      "key": "du-logo",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/du-logo.svg",
+      "alt": "du logo"
+    },
+    {
+      "key": "eitselat",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/eitselat.png",
+      "alt": "eitselat"
+    },
+    {
+      "key": "etsi-logo",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/ETSI-Logo.webp",
+      "alt": "etsi logo"
+    },
+    {
+      "key": "gis",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/gis.svg",
+      "alt": "gis"
+    },
+    {
+      "key": "gns3-icon",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/gns3_icon-min.svg",
+      "alt": "gns3 icon"
+    },
+    {
+      "key": "gsma-logo",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/gsma-logo.png",
+      "alt": "gsma logo"
+    },
+    {
+      "key": "gsma-logo-alt",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/gsma-logo.svg",
+      "alt": "gsma logo alt"
+    },
+    {
+      "key": "khalifa-university-logo",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/khalifa-university-logo.png",
+      "alt": "khalifa university logo"
+    },
+    {
+      "key": "linux-foundation-logo",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/Linux_Foundation_logo.png",
+      "alt": "linux foundation logo"
+    },
+    {
+      "key": "mena-6g",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/mena-6g.svg",
+      "alt": "mena 6g"
+    },
+    {
+      "key": "monitoring-performance",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/monitoring-performance.svg",
+      "alt": "monitoring performance"
+    },
+    {
+      "key": "napatech-logo",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/napatech-logo.png",
+      "alt": "napatech logo"
+    },
+    {
+      "key": "opnfv",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/opnfv-min.svg",
+      "alt": "opnfv"
+    },
+    {
+      "key": "osm-ico",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/osm-ico.svg",
+      "alt": "osm ico"
+    },
+    {
+      "key": "pox-nox",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/pox_nox-min.svg",
+      "alt": "pox nox"
+    },
+    {
+      "key": "professional",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/professional.svg",
+      "alt": "professional"
+    },
+    {
+      "key": "programming-svgrepo-com",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/programming-svgrepo-com.svg",
+      "alt": "programming svgrepo com"
+    },
+    {
+      "key": "project-management",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/project-management.svg",
+      "alt": "project management"
+    },
+    {
+      "key": "support",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/support.svg",
+      "alt": "support"
+    },
+    {
+      "key": "testing-validation",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/testing-validation.svg",
+      "alt": "testing validation"
+    },
+    {
+      "key": "training",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/training.svg",
+      "alt": "training"
+    },
+    {
+      "key": "web-development",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/05/web-development.svg",
+      "alt": "web development"
+    },
+    {
+      "key": "ieee",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/06/ieee.svg",
+      "alt": "ieee"
+    },
+    {
+      "key": "intel",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/06/intel.png",
+      "alt": "intel"
+    },
+    {
+      "key": "red-hat",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/06/red-hat.svg",
+      "alt": "red hat"
+    },
+    {
+      "key": "telco-api",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/06/telco_api.png",
+      "alt": "telco api"
+    },
+    {
+      "key": "telco-automation",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/06/telco_automation.png",
+      "alt": "telco automation"
+    },
+    {
+      "key": "telco-data-magaement",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/06/telco_data_magaement.png",
+      "alt": "telco data magaement"
+    },
+    {
+      "key": "vmware",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/06/VMware.png",
+      "alt": "vmware"
+    },
+    {
+      "key": "data-analysis",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/12/data_analysis.png",
+      "alt": "data analysis"
+    },
+    {
+      "key": "gis-telco",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/12/gis-telco.png",
+      "alt": "gis telco"
+    },
+    {
+      "key": "r-s",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/12/r_s.svg",
+      "alt": "r s"
+    },
+    {
+      "key": "traffic-shapping",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/12/traffic_shapping.png",
+      "alt": "traffic shapping"
+    },
+    {
+      "key": "quantum-computer",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2026/02/quantum_computer.png",
+      "alt": "quantum computer"
+    },
+    {
+      "key": "hero-bg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2016/03/nfv-background.jpg",
+      "alt": "",
+      "type": "photo"
+    },
+    {
+      "key": "xflow-logo",
+      "sourceUrl": null,
+      "alt": "xFlow",
+      "type": "logo"
+    }
+  ]
+}

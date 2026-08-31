@@ -1,0 +1,230 @@
+{
+  "ai-icon": {
+    "localPath": "/assets/ai-icon.png",
+    "alt": "ai icon"
+  },
+  "api-dev": {
+    "localPath": "/assets/api-dev.svg",
+    "alt": "api dev"
+  },
+  "arcgis": {
+    "localPath": "/assets/arcgis.svg",
+    "alt": "arcgis"
+  },
+  "automation": {
+    "localPath": "/assets/automation.svg",
+    "alt": "automation"
+  },
+  "camara-icon-svg": {
+    "localPath": "/assets/camara-icon-svg.svg",
+    "alt": "camara icon svg"
+  },
+  "camara-logo": {
+    "localPath": "/assets/camara-logo.jpg",
+    "alt": "camara logo"
+  },
+  "cloud-cservice": {
+    "localPath": "/assets/cloud-cservice.svg",
+    "alt": "cloud cservice"
+  },
+  "cropped-unnamed": {
+    "localPath": "/assets/cropped-unnamed.png",
+    "alt": "cropped unnamed"
+  },
+  "cropped-unnamed-alt": {
+    "localPath": "/assets/cropped-unnamed-alt.png",
+    "alt": "cropped unnamed alt"
+  },
+  "cyber-security-icon": {
+    "localPath": "/assets/cyber-security-icon.png",
+    "alt": "cyber security icon"
+  },
+  "data-analysis": {
+    "localPath": "/assets/data-analysis.png",
+    "alt": "data analysis"
+  },
+  "databases-symbol": {
+    "localPath": "/assets/databases-symbol.svg",
+    "alt": "databases symbol"
+  },
+  "dell-technologies-logo": {
+    "localPath": "/assets/dell-technologies-logo.png",
+    "alt": "dell technologies logo"
+  },
+  "dpi-icon": {
+    "localPath": "/assets/dpi-icon.svg",
+    "alt": "dpi icon"
+  },
+  "du-logo": {
+    "localPath": "/assets/du-logo.svg",
+    "alt": "du logo"
+  },
+  "eitselat": {
+    "localPath": "/assets/eitselat.png",
+    "alt": "eitselat"
+  },
+  "etsi-icon": {
+    "localPath": "/assets/etsi-icon.png",
+    "alt": "etsi icon"
+  },
+  "etsi-logo": {
+    "localPath": "/assets/etsi-logo.webp",
+    "alt": "etsi logo"
+  },
+  "gis": {
+    "localPath": "/assets/gis.svg",
+    "alt": "gis"
+  },
+  "gis-telco": {
+    "localPath": "/assets/gis-telco.png",
+    "alt": "gis telco"
+  },
+  "gns3-icon": {
+    "localPath": "/assets/gns3-icon.svg",
+    "alt": "gns3 icon"
+  },
+  "gsma-logo": {
+    "localPath": "/assets/gsma-logo.png",
+    "alt": "gsma logo"
+  },
+  "gsma-logo-alt": {
+    "localPath": "/assets/gsma-logo-alt.svg",
+    "alt": "gsma logo alt"
+  },
+  "hero-bg": {
+    "localPath": "/assets/hero-bg.jpg",
+    "alt": ""
+  },
+  "ieee": {
+    "localPath": "/assets/ieee.svg",
+    "alt": "ieee"
+  },
+  "intel": {
+    "localPath": "/assets/intel.png",
+    "alt": "intel"
+  },
+  "khalifa-university-logo": {
+    "localPath": "/assets/khalifa-university-logo.png",
+    "alt": "khalifa university logo"
+  },
+  "linux-foundation-logo": {
+    "localPath": "/assets/linux-foundation-logo.png",
+    "alt": "linux foundation logo"
+  },
+  "logo-ambile": {
+    "localPath": "/assets/logo-ambile.jpg",
+    "alt": "logo ambile"
+  },
+  "mano-icon": {
+    "localPath": "/assets/mano-icon.png",
+    "alt": "mano icon"
+  },
+  "mena-6g": {
+    "localPath": "/assets/mena-6g.svg",
+    "alt": "mena 6g"
+  },
+  "monitoring-performance": {
+    "localPath": "/assets/monitoring-performance.svg",
+    "alt": "monitoring performance"
+  },
+  "napatech-logo": {
+    "localPath": "/assets/napatech-logo.png",
+    "alt": "napatech logo"
+  },
+  "opnfv": {
+    "localPath": "/assets/opnfv.svg",
+    "alt": "opnfv"
+  },
+  "osm-ico": {
+    "localPath": "/assets/osm-ico.svg",
+    "alt": "osm ico"
+  },
+  "pox-nox": {
+    "localPath": "/assets/pox-nox.svg",
+    "alt": "pox nox"
+  },
+  "professional": {
+    "localPath": "/assets/professional.svg",
+    "alt": "professional"
+  },
+  "programming-svgrepo-com": {
+    "localPath": "/assets/programming-svgrepo-com.svg",
+    "alt": "programming svgrepo com"
+  },
+  "project-management": {
+    "localPath": "/assets/project-management.svg",
+    "alt": "project management"
+  },
+  "quantum-computer": {
+    "localPath": "/assets/quantum-computer.png",
+    "alt": "quantum computer"
+  },
+  "r-s": {
+    "localPath": "/assets/r-s.svg",
+    "alt": "r s"
+  },
+  "red-hat": {
+    "localPath": "/assets/red-hat.svg",
+    "alt": "red hat"
+  },
+  "sonic-icon": {
+    "localPath": "/assets/sonic-icon.png",
+    "alt": "sonic icon"
+  },
+  "sonic-logo": {
+    "localPath": "/assets/sonic-logo.png",
+    "alt": "sonic logo"
+  },
+  "support": {
+    "localPath": "/assets/support.svg",
+    "alt": "support"
+  },
+  "telco-api": {
+    "localPath": "/assets/telco-api.png",
+    "alt": "telco api"
+  },
+  "telco-automation": {
+    "localPath": "/assets/telco-automation.png",
+    "alt": "telco automation"
+  },
+  "telco-data-magaement": {
+    "localPath": "/assets/telco-data-magaement.png",
+    "alt": "telco data magaement"
+  },
+  "testing-validation": {
+    "localPath": "/assets/testing-validation.svg",
+    "alt": "testing validation"
+  },
+  "traffic-shapping": {
+    "localPath": "/assets/traffic-shapping.png",
+    "alt": "traffic shapping"
+  },
+  "training": {
+    "localPath": "/assets/training.svg",
+    "alt": "training"
+  },
+  "vmware": {
+    "localPath": "/assets/vmware.png",
+    "alt": "vmware"
+  },
+  "vulnerability-scan-services-icon": {
+    "localPath": "/assets/vulnerability-scan-services-icon.png",
+    "alt": "vulnerability scan services icon"
+  },
+  "web-development": {
+    "localPath": "/assets/web-development.svg",
+    "alt": "web development"
+  },
+  "xflow-logo": {
+    "localPath": "/assets/xflow-logo.svg",
+    "alt": "xFlow"
+  },
+  "xflow-logo-white": {
+    "localPath": "/assets/xflow-logo-white.png",
+    "alt": "xflow logo white"
+  },
+  "xflow-software-technology": {
+    "localPath": "/assets/xflow-software-technology.png",
+    "alt": "xflow software technology"
+  }
+}
