@@ -58,6 +58,14 @@ pnpm dev · pnpm build · pnpm test · pnpm test:e2e · pnpm lint · pnpm typech
 
 `pnpm build` produces the deployable static site in `out/`.
 
+## Git workflow (NON-NEGOTIABLE — see `.specify/memory/constitution.md`)
+
+- `main` is the trunk. Never commit or push directly to `main`.
+- Branch every change off `main` (`feat/*`, `fix/*`, `chore/*`), push the
+  branch, and open a **Pull Request into `main`**.
+- A PR must pass `pnpm lint`, `pnpm typecheck`, `pnpm test`, and `pnpm build`,
+  with a Conventional Commits title.
+
 ## Spec-driven development (spec-kit)
 
 This repo uses [spec-kit](https://github.com/github/spec-kit). Config, templates,
@@ -68,5 +76,7 @@ Flow: `/speckit-constitution` → `/speckit-specify` → `/speckit-plan` →
 `/speckit-tasks` → `/speckit-implement`. Optional: `/speckit-clarify` (before
 plan), `/speckit-analyze` and `/speckit-checklist` (before implement).
 
-The constitution (`.specify/memory/constitution.md`) is still the unfilled
-template — run `/speckit-constitution` to populate it.
+The constitution (`.specify/memory/constitution.md`) is populated (v1.0.0):
+static-only, fixed tech stack, component-based layout, server-first components,
+quality gates, and the Git workflow above. Amend it via `/speckit-constitution`
+or a PR that bumps its version.
