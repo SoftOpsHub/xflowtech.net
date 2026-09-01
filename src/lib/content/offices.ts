@@ -8,21 +8,4 @@ export const OFFICES: readonly OfficeLocation[] = [
     region: 'AE',
     logo: 'xflow-logo',
   },
-  {
-    entity: 'xFlow Tech Inc.',
-    addressLines: ['Austin, Texas, USA'],
-    email: 'info@xflowtech.net',
-    region: 'US',
-    logo: 'cropped-unnamed-alt',
-  },
-  {
-    entity: 'xFlow Tech Pvt. Ltd.',
-    addressLines: [
-      'First Floor, Plot # 100-A, Street 14,',
-      'Industrial Area, Sector I-9/2, Islamabad, Pakistan.',
-    ],
-    email: null,
-    region: 'PK',
-    logo: 'cropped-unnamed-alt',
-  },
 ];

@@ -34,7 +34,7 @@ test.describe('navigation', () => {
     for (const route of ROUTES) {
       await page.goto(route);
       await expect(
-        page.getByText('© 2026 · xFlow Tech Inc · All Rights Reserved'),
+        page.getByText('© 2026 · X Flow Software Technology LLC · All Rights Reserved'),
       ).toBeVisible();
     }
   });

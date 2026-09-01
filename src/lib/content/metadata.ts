@@ -14,7 +14,7 @@ export const PAGES: Record<'/' | '/about-us' | '/contact', PageMeta> = {
     path: '/about-us',
     title: 'About Us — xFlow Tech',
     description:
-      'xFlow Tech Inc. is one of the very first companies providing SDN, NFV, and ' +
+      'xFlow is one of the very first companies providing SDN, NFV, and ' +
       'OpenStack development services, with roots in academic networking research.',
     ogImage: 'xflow-logo-white',
     sections: ['about-intro'],
@@ -22,7 +22,7 @@ export const PAGES: Record<'/' | '/about-us' | '/contact', PageMeta> = {
   '/contact': {
     path: '/contact',
     title: 'Contact Us — xFlow Tech',
-    description: 'Get in touch with xFlow Tech — offices in Dubai, Austin, and Islamabad.',
+    description: 'Get in touch with xFlow — based in Dubai, UAE.',
     ogImage: 'xflow-logo-white',
     sections: ['offices'],
   },
