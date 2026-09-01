@@ -1,7 +1,8 @@
 import { describe, it, expect } from 'vitest';
 import { ASSET_KEYS } from '@/src/lib/assets';
 import { SITE } from '@/src/lib/content/site';
-import { SERVICES } from '@/src/lib/content/services';
+import { SERVICES, SERVICE_PAGES } from '@/src/lib/content/services';
+import { SERVICE_CONTENT } from '@/src/lib/content/service-content';
 import { PRODUCTS } from '@/src/lib/content/products';
 import { PARTNERS } from '@/src/lib/content/partners';
 import { OFFICES } from '@/src/lib/content/offices';
@@ -48,6 +49,18 @@ describe('content data integrity', () => {
   it('no content string hotlinks a live asset', () => {
     const blob = JSON.stringify({ SERVICES, PRODUCTS, PARTNERS });
     expect(blob).not.toMatch(/xflowresearch\.com\/wp-content/);
+  });
+
+  it('every service page carries body content mirrored from the live site', () => {
+    for (const s of SERVICE_PAGES) {
+      const content = SERVICE_CONTENT[s.slug] as (typeof SERVICE_CONTENT)[string] | undefined;
+      expect(content, s.slug).toBeDefined();
+      expect(content?.blocks.length ?? 0, s.slug).toBeGreaterThan(0);
+    }
+  });
+
+  it('service content never names the old brand', () => {
+    expect(JSON.stringify(SERVICE_CONTENT)).not.toMatch(/xFlow Research/);
   });
 
   it('every page has a non-empty ordered section list', () => {

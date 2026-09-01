@@ -26,6 +26,19 @@ export interface Service {
   href: string | null;
 }
 
+/** A styled run of text inside a paragraph or list item: plain string, or bold/italic. */
+export type InlineRun = string | { b: string } | { i: string };
+
+export type ServiceBlock =
+  | { type: 'para'; runs: InlineRun[] }
+  | { type: 'heading'; text: string }
+  | { type: 'list'; ordered: boolean; items: InlineRun[][] };
+
+/** Body content for a service's own page, mirrored from the live site. */
+export interface ServiceContent {
+  blocks: ServiceBlock[];
+}
+
 export interface OpenSourceContribution {
   name: string;
   url: string | null;
