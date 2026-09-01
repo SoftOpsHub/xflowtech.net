@@ -15,8 +15,8 @@ export function AboutSection() {
         <div className="max-w-3xl">
           <h1 className="text-3xl font-bold tracking-tight">About Us</h1>
           <p className="text-muted-foreground mt-4 text-base">
-            xFlow Tech Inc. builds solutions and provides research services in NFV, SDN, IoT,
-            and fast data communication.
+            xFlow builds solutions and provides research services in NFV, SDN, IoT, and fast
+            data communication.
           </p>
           <ul className="mt-6 space-y-3">
             {FACTS.map((fact) => (

@@ -287,6 +287,108 @@
       "sourceUrl": null,
       "alt": "xFlow",
       "type": "logo"
+    },
+    {
+      "key": "gis-elevation",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/Elevation.png",
+      "alt": "Elevation mapping",
+      "type": "photo"
+    },
+    {
+      "key": "gis-rainfall",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/Rainfall.png",
+      "alt": "Rainfall data analysis",
+      "type": "photo"
+    },
+    {
+      "key": "gis-soil-pakistan",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/Soil-of-Pakistan.png",
+      "alt": "Soil mapping of Pakistan",
+      "type": "photo"
+    },
+    {
+      "key": "gis-temperature",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/Temperature.png",
+      "alt": "Temperature data visualization",
+      "type": "photo"
+    },
+    {
+      "key": "gis-uae-administration",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/UAE-Administration.png",
+      "alt": "UAE administrative boundaries",
+      "type": "photo"
+    },
+    {
+      "key": "gis-uae-industrial-transport",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/UAE-Industrial-areas-and-Transportation.png",
+      "alt": "UAE industrial areas and transportation",
+      "type": "photo"
+    },
+    {
+      "key": "gis-uae-population",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/UAE-population.png",
+      "alt": "UAE population density",
+      "type": "photo"
+    },
+    {
+      "key": "gis-world-flow-map",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/world-flow-map.png",
+      "alt": "World flight-flow map",
+      "type": "photo"
+    },
+    {
+      "key": "gis-islamabad",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/04/ISlamabad.jpg",
+      "alt": "Islamabad land cover",
+      "type": "photo"
+    },
+    {
+      "key": "gis-dubai-rainfall",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/04/Dubai-rainfall.jpg",
+      "alt": "Dubai rainfall",
+      "type": "photo"
+    },
+    {
+      "key": "gis-dubai-land",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/04/Dubai-land.jpg",
+      "alt": "Dubai land cover",
+      "type": "photo"
+    },
+    {
+      "key": "gis-uae-temperature",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/04/UAE-temp.jpg",
+      "alt": "UAE temperature",
+      "type": "photo"
+    },
+    {
+      "key": "gis-iran-geology",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/07/Iran-Geology.png",
+      "alt": "Geology of Iran",
+      "type": "photo"
+    },
+    {
+      "key": "gis-pakistan-rivers-map",
+      "sourceUrl": "https://xflowresearch.com/wp-content/themes/altitude-pro/images/pak_rivers.png",
+      "alt": "Pakistan rivers interactive map",
+      "type": "photo"
+    },
+    {
+      "key": "gis-pakistan-universities-map",
+      "sourceUrl": "https://xflowresearch.com/wp-content/themes/altitude-pro/images/pak_unis.png",
+      "alt": "Pakistan universities interactive map",
+      "type": "photo"
+    },
+    {
+      "key": "gis-telco-cell-ids",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/12/Cell-ids-and-calls.jpg",
+      "alt": "4G/5G cell IDs and call load",
+      "type": "photo"
+    },
+    {
+      "key": "gis-telco-uae-sectors",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/12/UAE-sectors.jpg",
+      "alt": "UAE network sectors",
+      "type": "photo"
     }
   ]
 }

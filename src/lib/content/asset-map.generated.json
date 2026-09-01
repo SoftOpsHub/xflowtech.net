@@ -75,9 +75,77 @@
     "localPath": "/assets/gis.svg",
     "alt": "gis"
   },
+  "gis-dubai-land": {
+    "localPath": "/assets/gis-dubai-land.jpg",
+    "alt": "Dubai land cover"
+  },
+  "gis-dubai-rainfall": {
+    "localPath": "/assets/gis-dubai-rainfall.jpg",
+    "alt": "Dubai rainfall"
+  },
+  "gis-elevation": {
+    "localPath": "/assets/gis-elevation.jpg",
+    "alt": "Elevation mapping"
+  },
+  "gis-iran-geology": {
+    "localPath": "/assets/gis-iran-geology.jpg",
+    "alt": "Geology of Iran"
+  },
+  "gis-islamabad": {
+    "localPath": "/assets/gis-islamabad.jpg",
+    "alt": "Islamabad land cover"
+  },
+  "gis-pakistan-rivers-map": {
+    "localPath": "/assets/gis-pakistan-rivers-map.jpg",
+    "alt": "Pakistan rivers interactive map"
+  },
+  "gis-pakistan-universities-map": {
+    "localPath": "/assets/gis-pakistan-universities-map.jpg",
+    "alt": "Pakistan universities interactive map"
+  },
+  "gis-rainfall": {
+    "localPath": "/assets/gis-rainfall.jpg",
+    "alt": "Rainfall data analysis"
+  },
+  "gis-soil-pakistan": {
+    "localPath": "/assets/gis-soil-pakistan.jpg",
+    "alt": "Soil mapping of Pakistan"
+  },
   "gis-telco": {
     "localPath": "/assets/gis-telco.png",
     "alt": "gis telco"
+  },
+  "gis-telco-cell-ids": {
+    "localPath": "/assets/gis-telco-cell-ids.jpg",
+    "alt": "4G/5G cell IDs and call load"
+  },
+  "gis-telco-uae-sectors": {
+    "localPath": "/assets/gis-telco-uae-sectors.jpg",
+    "alt": "UAE network sectors"
+  },
+  "gis-temperature": {
+    "localPath": "/assets/gis-temperature.jpg",
+    "alt": "Temperature data visualization"
+  },
+  "gis-uae-administration": {
+    "localPath": "/assets/gis-uae-administration.jpg",
+    "alt": "UAE administrative boundaries"
+  },
+  "gis-uae-industrial-transport": {
+    "localPath": "/assets/gis-uae-industrial-transport.jpg",
+    "alt": "UAE industrial areas and transportation"
+  },
+  "gis-uae-population": {
+    "localPath": "/assets/gis-uae-population.jpg",
+    "alt": "UAE population density"
+  },
+  "gis-uae-temperature": {
+    "localPath": "/assets/gis-uae-temperature.jpg",
+    "alt": "UAE temperature"
+  },
+  "gis-world-flow-map": {
+    "localPath": "/assets/gis-world-flow-map.jpg",
+    "alt": "World flight-flow map"
   },
   "gns3-icon": {
     "localPath": "/assets/gns3-icon.svg",
