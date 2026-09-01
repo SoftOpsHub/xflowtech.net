@@ -36,7 +36,7 @@ export const SERVICES: readonly Service[] = [
     name: 'Cyber Security',
     blurb: 'Security engineering, hardening, and assessments.',
     icon: 'cyber-security-icon',
-    href: null,
+    href: '/cyber-security',
   },
   {
     slug: 'databases-and-storage',
@@ -57,7 +57,7 @@ export const SERVICES: readonly Service[] = [
     name: 'GIS in Telecommunication',
     blurb: 'Geospatial analytics for network planning and operations.',
     icon: 'gis-telco',
-    href: null,
+    href: '/gis-in-telco',
   },
   {
     slug: 'monitoring-solutions',
@@ -99,7 +99,7 @@ export const SERVICES: readonly Service[] = [
     name: 'Quantum Research',
     blurb: 'Research into quantum computing and communications.',
     icon: 'quantum-computer',
-    href: null,
+    href: '/quantum',
   },
   {
     slug: 'research-and-standardization',
@@ -134,7 +134,7 @@ export const SERVICES: readonly Service[] = [
     name: 'Training Services',
     blurb: 'Training and certification in SDN, NFV, and OpenStack.',
     icon: 'training',
-    href: '/coming-soon',
+    href: '/training',
   },
   {
     slug: 'technical-support',
@@ -148,7 +148,7 @@ export const SERVICES: readonly Service[] = [
     name: 'Vulnerability Assessment Services',
     blurb: 'Vulnerability scanning and remediation guidance.',
     icon: 'vulnerability-scan-services-icon',
-    href: null,
+    href: '/vulnerability-and-scan-services',
   },
   {
     slug: 'web-application',

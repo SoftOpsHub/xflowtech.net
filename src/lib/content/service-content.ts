@@ -3,6 +3,7 @@ import type { ServiceContent } from './types';
 // Body content for each service that has its own local page, mirrored from the
 // live site's service pages (xflowresearch.com). Keyed by `Service.slug`;
 // services without an entry fall back to rendering just their `blurb`.
+
 export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   'automation': {
     blocks: [
@@ -87,6 +88,77 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       },
     ],
   },
+  'cyber-security': {
+    blocks: [
+      { type: 'para', runs: ['We provide specialized services in:'] },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          ['Vulnerability Assessment and Penetration Testing (VAPT)'],
+          ['Secure Software Development and Quality Assurance'],
+          ['Governance, Risk, and Compliance'],
+          ['Secure Architecture (Review/Audit/Plan/Design)'],
+        ],
+      },
+      { type: 'heading', text: 'VAPT' },
+      { type: 'para', runs: ['Vulnerability Assessment and Penetration Testing (VAPT) is an essential step in ensuring that an organization’s digital assets are secure from external and internal threats. It involves evaluating the security of an organization’s network, web applications, and mobile applications.'] },
+      { type: 'heading', text: 'Our approach to VAPT' },
+      { type: 'para', runs: ['We use commercial and open source tools to evaluate vulnerabilities in systems, and evaluate the vulnerabilities in the system for false positive or false negative based on our knowledge and understanding of known vulnerabilities. We provide risk ratings based on severity and ease of exploitation of the vulnerabilities'] },
+      { type: 'para', runs: ['Our VAPT service is designed to help identify and address any security weaknesses in your organization’s network infrastructure, web applications, and mobile applications. We use a combination of manual and automated testing techniques adhering to security standards set by OWASP and NIST to identify vulnerabilities and weaknesses in your systems, then provide detailed reports outlining any identified security issues and how to remediate them. We also assess your applications for regulatory compliances such as PCI DSS and GDPR.'] },
+      { type: 'heading', text: 'Coverage areas in VAPT' },
+      { type: 'para', runs: ['We offer four main types of VAPT services: Web, Mobile and Cloud. Each type of VAPT service is unique and designed to address specific areas of concern for an organization.'] },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          [{ b: 'Web app VAPT:' }, ' Web VAPT involves assessing the security of an organization’s web applications. We test the security of web applications using a custom approach that covers the OWASP top 10 and SANS 25. The tests help identify vulnerabilities and potential weaknesses in web applications, allowing organizations to implement measures to prevent attacks. Our goal here is to analyze and attack all the functions of the websites to give an accurate security image of the websites where it will show which functions, webpages, or technology used is vulnerable in nature.'],
+          [{ b: 'Mobile app VAPT:' }, ' Mobile VAPT involves assessing the security of an organization’s mobile applications. We test the security of mobile applications, including authentication, data storage, and data transmission to name a few using our custom approach that covers OWASP top 10. We analyze all aspects of the mobile application and initiate attacks against features to check whether it will cause any security failure or not by performing static and dynamic testing on these application'],
+          [{ b: 'Cloud app VAPT:' }, ' Cloud VAPT involves assessing the security of an organization’s cloud-based infrastructure. More and more organizations rely on cloud services for their operations these days. We test the security of the cloud infrastructure, including cloud servers, virtual machines, and containers. The tests help identify vulnerabilities and potential weaknesses in the cloud environment, allowing organizations to implement measures to prevent attacks. In order to serve our clients with the best AI based penetration testing solutions, we have partnered with “ImmuniWeb” to test, secure and protect weband mobile applications, cloud and network infrastructure, and prevent supply chain attacks and data breaches, and to comply with regulatory requirements.'],
+        ],
+      },
+      { type: 'heading', text: 'Secure Software Development & Quality Assurance' },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          ['Our ', { b: 'Secure Code Development' }, ' service is designed to help you develop and implement secure coding practices, ensuring that your software is secure from the outset. Our team of experts has extensive experience in developing secure code and can help you design, develop and maintain secure software applications that are resistant to cyber-attacks.'],
+          ['We also offer Secure Code Review services. We review your software code to identify any potential vulnerabilities and provide recommendations on how to remediate them. Our Secure Code Review services are an essential component of our VAPT (Vulnerability Assessment and Penetration Testing) services and can help you ensure that your software is secure before deployment.'],
+          ['We provide ', { b: 'Consultancy' }, ' on integrating state of the art software engineering and automated testing strategies in organizations, suggest improvements to software development and provide quality assurance processes, and data security for critical applications.'],
+          ['We provide ', { b: 'Assessment and analysis of existing software' }, ' and test the quality and practices of the organizations to report on any information security threats to the organizations through their infrastructure and applications.'],
+          ['Our teams provide ', { b: 'Independent Software Testing' }, ' or in Testing as a Service (TaaS) and validation & verification services to client organizations. The services range from manual and automated testing at system, integration, or unit levels to automated load and stress testing for web applications, mobile applications, desktop applications, and embedded systems.'],
+          ['We perform ', { b: 'Security Testing' }, ' of critical applications for security threats, functional correctness, and scalability. The services include, automated penetration testing to assess network and application vulnerabilities, testing against known security vulnerabilities, e.g., OWASP vulnerabilities for web applications, and static analysis to identify source code vulnerabilities.'],
+        ],
+      },
+      { type: 'heading', text: 'Governance, Risk and Compliance' },
+      { type: 'para', runs: ['xFlow Tech’s Governance, Risk, and Compliance (GRC) solution assists enterprises in strengthening their overall security posture by minimizing risk exposure, assuring adherence to industry requirements, and aligning with information security best practices and standards.'] },
+      { type: 'para', runs: ['Service we offer:'] },
+      {
+        type: 'list',
+        ordered: true,
+        items: [
+          ['Cyber Maturity Assessment'],
+          ['Risk Assessment'],
+          ['Compliance Assessment'],
+          ['Intelligent Data Services'],
+        ],
+      },
+      { type: 'heading', text: 'Secure Architecture' },
+      { type: 'para', runs: ['Secure Architecture Reviews are a collection of services based on industry best practices designed to evaluate the effectiveness of technical and operational security controls deployed in an organization. The reviews focus on People, Processes & Technology to improve the resilience of the organization’s security posture in consideration of Business Requirements, Best Practices referred to CIS Benchmarks, NIST CSF.'] },
+      { type: 'para', runs: ['Services we offer:'] },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          ['Secure Architecture Review – Comprehensive maturity assessment of your architecture using Center for Internet controls (CIS 18)'],
+          ['Network Security Assessment – Network scans to look for sensitive information and review of network design, protocols.'],
+          ['Infrastructure Security review – Review the policies and technologies in use.'],
+          ['Secure Configuration review – Review configurations of your critical Network Infrastructure against security benchmarks.'],
+          ['Consulting Services – Planning & Deployment of networks from the ground up, Web Server Hardening, Firewall & Network secure configurations, Secure Data hosting'],
+        ],
+      },
+    ],
+  },
   'gis': {
     blocks: [
       { type: 'para', runs: ['xFlow Tech is conducting GIS research across a range of spatial data domains to support advanced analysis and visualization. Our ongoing work includes:'] },
@@ -104,6 +176,75 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
         ],
       },
       { type: 'para', runs: ['These research efforts help build a strong foundation for integrating geographic, environmental, and infrastructure data into telecom and other data-driven applications.'] },
+      {
+        type: 'gallery',
+        items: [
+          { image: 'gis-elevation', alt: 'Elevation mapping' },
+          { image: 'gis-rainfall', alt: 'Rainfall data analysis' },
+          { image: 'gis-soil-pakistan', alt: 'Soil mapping of Pakistan' },
+          { image: 'gis-temperature', alt: 'Temperature data visualization' },
+          { image: 'gis-uae-administration', alt: 'UAE administrative boundaries' },
+          { image: 'gis-uae-industrial-transport', alt: 'UAE industrial areas and transportation' },
+          { image: 'gis-uae-population', alt: 'UAE population density' },
+          { image: 'gis-world-flow-map', alt: 'World flight-flow map' },
+          { image: 'gis-islamabad', alt: 'Islamabad land cover' },
+          { image: 'gis-dubai-rainfall', alt: 'Dubai rainfall' },
+          { image: 'gis-dubai-land', alt: 'Dubai land cover' },
+          { image: 'gis-uae-temperature', alt: 'UAE temperature' },
+          { image: 'gis-iran-geology', alt: 'Geology of Iran' },
+          {
+            image: 'gis-pakistan-rivers-map',
+            alt: 'Pakistan rivers interactive map',
+            href: 'https://xflowresearch.com/pakistan-rivers',
+            caption: 'View interactive map',
+          },
+          {
+            image: 'gis-pakistan-universities-map',
+            alt: 'Pakistan universities interactive map',
+            href: 'https://xflowresearch.com/pakistan-universities',
+            caption: 'View interactive map',
+          },
+        ],
+      },
+      {
+        type: 'embed',
+        title: 'Interactive Maps',
+        frames: [
+          {
+            label: 'LST UTF VI in UAE',
+            src: 'https://ee-shak5121472.projects.earthengine.app/view/lstutfvi-in-uae',
+            title: 'Land Surface Temperature & UTFVI in UAE',
+          },
+          {
+            label: 'Annual Temperature',
+            src: 'https://ee-shak5121472.projects.earthengine.app/view/annual-temperature',
+            title: 'Annual Temperature',
+          },
+        ],
+      },
+    ],
+  },
+  'gis-in-telecommunication': {
+    blocks: [
+      { type: 'para', runs: ['xFlow Tech is also conducting research and development in Geographic Information Systems (GIS) for telecom use cases. Our work focuses on using location-based data to improve network visibility, analysis, and operational decision-making.'] },
+      { type: 'heading', text: 'Proofs of Concept (PoCs)' },
+      { type: 'para', runs: ['As part of our R&D efforts, we have developed several proof-of-concept solutions with synthetic data, including:'] },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          [{ b: 'Mapping of 4G and 5G Cell IDs' }, ' — Visualization and mapping of 4G and 5G cell identifiers across a region to support network planning and analysis.'],
+          [{ b: 'Real-Time Call Load per Cell ID' }, ' — Monitoring and visualization of real-time call load distribution across different cell IDs within a region.'],
+          [{ b: 'Connected UE / Device Information' }, ' — Mapping of connected user equipment (UEs) and devices associated with specific cell IDs to provide visibility into network usage patterns.'],
+        ],
+      },
+      {
+        type: 'gallery',
+        items: [
+          { image: 'gis-telco-cell-ids', alt: '4G/5G cell IDs and call load' },
+          { image: 'gis-telco-uae-sectors', alt: 'UAE network sectors' },
+        ],
+      },
     ],
   },
   'monitoring-solutions': {
@@ -198,8 +339,12 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
         ordered: false,
         items: [
           ['Active contributor to Community SONiC across multiple releases'],
-          ['Served as reviewers for two features in the 2023-11 feature release'],
-          ['One feature from NVIDIA'],
+          ['Served as reviewers for two features in the 2023-11 feature release — one from Microsoft (MSFT), one from NVIDIA'],
+          ['Contributed multiple pull requests (PRs) across different SONiC containers'],
+          ['Assisted the SONiC community in building custom SONiC images from scratch'],
+          ['Participated in SONiC Hackathon 2022 and SONiC Hackathon 2023'],
+          ['Regular participant in SONiC community weekly review meetings'],
+          ['Member of the Linux Foundation'],
         ],
       },
       { type: 'heading', text: 'Community Contribution Services' },
@@ -299,6 +444,75 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { type: 'para', runs: ['We serve clients across the globe, bringing structured project management methodologies, experienced teams, and a results-driven mindset to every project we manage.'] },
     ],
   },
+  'quantum-research': {
+    blocks: [
+      { type: 'heading', text: 'Driving Innovation: Our Quantum Journey' },
+      { type: 'para', runs: ['At xFlow Tech, we believe quantum technology will reshape the future of computing and security. As computers become more powerful, the way we protect data must evolve too. That is why we are building a team of researchers and engineers dedicated to exploring these new technologies. Our work combines deep study, hands-on testing, and strong partnerships to stay ahead of the curve. Together, we are turning complex quantum science into practical tools that help keep the digital world secure.'] },
+      { type: 'heading', text: 'Our Role in Addressing the Quantum Threat' },
+      { type: 'para', runs: ['Quantum computers will soon break today’s security locks. We are working to stay ahead of this challenge. Our team specializes in two approaches: Quantum Key Distribution (QKD), which uses the laws of physics to share secure keys, and Quantum-Safe Cryptography (QSC), which uses new mathematical locks that quantum computers cannot crack. We are actively helping to shape global security standards and have already deployed ML-KEM, the new NIST-approved quantum-safe algorithm, into our own systems. We are also building a Quantum-Safe VPN that uses this technology to create a secure tunnel, protecting data from the “harvest now, decrypt later” threat.'] },
+      { type: 'heading', text: 'Protection against Quantum Computers' },
+      { type: 'para', runs: ['At xFlow Tech, we are working on new ways to protect data against this future threat. Our approach combines two strategies: Quantum Key Distribution (QKD), which uses the laws of physics to share secure keys, and Post-Quantum Cryptography (PQC), which uses advanced mathematics to create locks that quantum computers cannot crack. We are also helping to shape global security standards to ensure these new protections are adopted worldwide.'] },
+      { type: 'heading', text: 'PQC' },
+      { type: 'para', runs: ['Post-Quantum Cryptography, or PQC, refers to new cryptographic algorithms designed to be secure against both classical and quantum computers. Think of it as upgrading your locks to ones that even the most powerful future tools cannot pick. Unlike QKD, which requires specialized hardware, PQC works entirely through software and can be deployed on existing systems. This makes it a practical and scalable solution for protecting data today and in the future. We are actively studying and implementing these new algorithms, contributing to global standardization efforts, and helping organizations transition to quantum-safe security.'] },
+      { type: 'heading', text: 'ML-KEM' },
+      { type: 'para', runs: ['ML-KEM (Module-Lattice-Based Key-Encapsulation Mechanism) is one of the first NIST-approved post-quantum cryptographic standards. In simple terms, it is a new way to securely exchange encryption keys between two parties even if a quantum computer is trying to intercept them. We have already deployed ML-KEM within our own infrastructure and are building practical applications around it. To help others understand this technology, we have created an Interactive ML-KEM Visualizer, a free educational web app that breaks the complex math into simple, step-by-step animations. Users can watch how keys are generated and exchanged in real-time, making this cutting-edge technology accessible to everyone.'] },
+      { type: 'heading', text: 'McEliece' },
+      { type: 'para', runs: ['The McEliece cryptosystem is one of the oldest and most well-studied post-quantum encryption schemes. It is based on the hardness of decoding random linear codes, a problem believed to be resistant to both classical and quantum attacks. Unlike lattice-based schemes, McEliece offers fast encryption and decryption, making it attractive for certain use cases. Its main trade-off is “larger key sizes”, but ongoing research is addressing these challenges. We are investigating McEliece as a potential alternative or complement to other PQC algorithms in our security architecture.'] },
+      { type: 'heading', text: 'Digital Signatures, From Classical to Quantum' },
+      { type: 'para', runs: ['Digital signatures are the backbone of trust in the digital world. They ensure that a message, document, or piece of software truly comes from who it claims to come from and hasn’t been altered along the way. Whether you are signing an email, verifying a software update, or authenticating a financial transaction, digital signatures make it all possible.'] },
+      { type: 'para', runs: ['To help demystify this critical technology, we have built an interactive web app that walks you through the entire journey of signatures. Starting with the basic concept of what a signature is, moving through classical cryptographic signatures (like RSA and ECDSA), and finally exploring how quantum-safe signatures work to protect against future quantum threats.'] },
+      { type: 'para', runs: ['Our app is designed for everyone, whether you are a student, developer, or a security professional. You don’t need a background in cryptography to get started. Through simple animations and step-by-step explanations, you will learn:'] },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          ['What makes a signature secure'],
+          ['How classical signatures work under the hood'],
+          ['Why quantum computers break them'],
+          ['What are post-quantum signature schemes offering a solution'],
+        ],
+      },
+      { type: 'para', runs: ['No matter your level of expertise, this tool will give you a clear, intuitive understanding of how signatures protect your digital life both today and in the quantum future.'] },
+      { type: 'heading', text: 'Interactive Quantum Visualizations' },
+      { type: 'para', runs: ['To complement our theoretical research and experimental implementations, xFlow Tech has developed a set of interactive HTML-based visualizations that intuitively demonstrate key quantum and photonic concepts. These visual tools are designed to bridge the gap between abstract quantum theory and physical intuition, making complex ideas easier to explore and understand.'] },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          ['BB84 Quantum Key Distribution Protocol'],
+          ['Optical Phenomena Dashboard'],
+          ['Time-Bin Coding Quantum Communication'],
+          ['Quantum Orbitals showing Quantum Numbers'],
+        ],
+      },
+      { type: 'heading', text: 'Strategic Research, Evaluation, and Collaboration' },
+      { type: 'para', runs: ['Beyond training, we have moved into active research and evaluation of quantum resources, coupled with strategic outreach to academic experts.'] },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          [{ b: 'Quantum Algorithms and Use-Cases:' }, ' We have initiated the study of core Quantum Algorithms to understand their potential applications across our business domains.'],
+          [{ b: 'Hardware Evaluation: ' }, 'We are conducting a thorough evaluation of different mini quantum computers to inform future internal Proof-of-Concepts (PoCs).'],
+          [{ b: 'Hands-on Quantum Development:' }, ' Beyond theoretical evaluation, our team engages in practical experimentation and development using Qiskit and the IBM Quantum Runtime. This hands-on approach allows us to validate quantum concepts through real quantum hardware and simulations, directly informing our internal PoCs and deepening our understanding of the practical constraints and capabilities of today’s quantum processors.'],
+        ],
+      },
+      { type: 'heading', text: 'Future Roadmap' },
+      { type: 'para', runs: ['Our commitment to quantum technology is a long-term strategy. Building on our strong foundation, our immediate and near-term plans are focused on concrete development, expansion of partnerships, and the execution of high-impact PoCs.'] },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          [{ b: 'Qiskit Advocate:' }, ' We will demonstrate a higher level of proficiency and contribution to the quantum open-source community, achieving higher levels of expertise.'],
+          [{ b: 'Establishing Strategic Alliances:' }, ' We plan to explore and prepare with different companies. This initiative is aimed at combining our internal expertise with external market leaders to accelerate our development.'],
+          [{ b: 'Executing Internal PoCs:' }, ' We will leverage the results of our hardware evaluation to launch many internal Proof-of-Concepts. These PoCs will focus on validating quantum advantages in specific areas relevant to xFlow Tech. Our QVPN project already serves as a prime example of this approach, validating quantum-safe networking protocols in a live operational environment while ensuring strict alignment with the emerging ETSI QKD and QSC specifications we actively contribute to'],
+          [{ b: 'Advanced Research & Standardization:' }, ' We will move to applied research, focusing on advanced quantum protocols and algorithms to further strengthen our internal capabilities and intellectual property. This work will also feed directly into our contributions to the ETSI ISG QKD and ETSI CYBER_QSC specifications, including Application Interfaces (API) and Protection Profiles.'],
+        ],
+      },
+      { type: 'para', runs: ['By investing heavily in our team’s knowledge, strategic partnerships, and hands-on hardware evaluation, xFlow Tech is actively shaping a future where we utilize quantum technology to deliver unprecedented value and innovation.'] },
+      { type: 'heading', text: 'Quantum Experiments' },
+      { type: 'para', runs: ['Our commitment to transparent and collaborative research is demonstrated through our public code contributions. Our team maintains strong alignment with the global open-source quantum ecosystem, ensuring that our research output reflects current best practices and actively contributes to the broader quantum community. Through continuous learning, experimentation, and standards-driven research, xFlow Tech collectively advances the development of robust, quantum-safe architectures. You can explore the technical depth of our work, including various Qiskit algorithm implementations and quantum simulations, on GitHub:'] },
+    ],
+  },
   'research-and-standardization': {
     blocks: [
       { type: 'para', runs: ['xFlow Tech is a full-time member of European Telecommunication Standards Institute (ETSI) which sets standards for cutting technologies like NFV, MEC, IoT, Smart Cities, Augmented Reality. Engineers from xFlow Tech work closely with ETSI in different domains like Conformance and Interoperability testing, Development of Simulation and other Educational Tools based on the ETSI specifications, Export Support in Plugtests, and many more.'] },
@@ -323,13 +537,13 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
     blocks: [
       { type: 'para', runs: ['xFlow Tech provides software development services focused on building reliable, efficient, and maintainable systems. We follow established software development standards and a structured ', { b: 'Software Development Life Cycle (SDLC)' }, ' to ensure quality, consistency, and predictable outcomes. We work closely with our clients to understand their requirements and deliver solutions that meet both technical and business needs.'] },
       { type: 'heading', text: 'Our Services' },
-      { type: 'para', runs: [{ b: 'Software Development' }] },
+      { type: 'heading', text: 'Software Development' },
       { type: 'para', runs: ['We design and develop high-performance software using C, C++, Golang, and Python, following industry-accepted coding standards, secure development practices, and structured development workflows.'] },
-      { type: 'para', runs: [{ b: 'Customized Software Solutions' }] },
+      { type: 'heading', text: 'Customized Software Solutions' },
       { type: 'para', runs: ['We build tailored software solutions based on specific business and technical requirements, developed and validated through a defined SDLC process.'] },
-      { type: 'para', runs: [{ b: 'API Development' }] },
+      { type: 'heading', text: 'API Development' },
       { type: 'para', runs: ['We develop secure, well-documented APIs designed for integration, scalability, and long-term maintainability.'] },
-      { type: 'para', runs: [{ b: 'Web and App Development' }] },
+      { type: 'heading', text: 'Web and App Development' },
       { type: 'para', runs: ['We deliver web and application solutions with a focus on usability, performance, and reliability.'] },
       { type: 'heading', text: 'Quality and Engineering Practices' },
       {
@@ -394,7 +608,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'testing-and-validation': {
     blocks: [
-      { type: 'para', runs: ['We help you deliver reliable and bug-free software by offering ', { b: 'quality assurance (QA)' }, { b: 'services' }, ' for mobile apps, web apps, and software products. Our testing approach follows global standards and is based on ', { b: 'ISTQB foundational knowledge.' }, ' We cover every phase of the ', { b: 'Software Testing Life Cycle (STLC)' }, ' with a focus on practical, real-world application.'] },
+      { type: 'para', runs: ['We help you deliver reliable and bug-free software by offering ', { b: 'quality assurance (QA)' }, ' ', { b: 'services' }, ' for mobile apps, web apps, and software products. Our testing approach follows global standards and is based on ', { b: 'ISTQB foundational knowledge.' }, ' We cover every phase of the ', { b: 'Software Testing Life Cycle (STLC)' }, ' with a focus on practical, real-world application.'] },
       { type: 'para', runs: ['Our QA services include:'] },
       {
         type: 'list',
@@ -411,25 +625,62 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { type: 'para', runs: ['We work side-by-side with your development team to improve product quality, speed up release cycles, and ensure the software meets the requirements and is bug free.'] },
     ],
   },
+  'training-services': {
+    blocks: [
+      { type: 'heading', text: 'Training' },
+      { type: 'para', runs: ['We provide training services and certifications to companies, educational institutions. The training can be a 1 day seminar covering basics on OpenStack and architecture, or a 3 day workshop including OpenStack deployments, debugging and development categorized under different learning modules. The training duration can also vary based on customized learning requirements.'] },
+      { type: 'heading', text: 'OpenStack Introductory Seminar' },
+      { type: 'para', runs: ['This purpose of this one day seminar is to introduce OpenStack to the audience. It includes introduction to clouds, cloud deployment, role of OpenStack, reasons to use OpenStack in your setup and features of OpenStack.'] },
+      { type: 'heading', text: 'OpenStack Associate Training & Certification' },
+      { type: 'para', runs: ['This three day training is designed for IT professionals who are looking to gain basic knowledge on OpenStack. This training offers basic understanding of all the OpenStack modules. It covers brief history on OpenStack, motivations for worldwide adoption and support, introduction to OpenStack and its modules along with their functionality, working and interconnection details. In the hands on section, this training will enable the participants to install OpenStack and its modules, configure them and for use OpenStack services via the client tools and the dashboard. This training is the best preparation for new users trying to learn OpenStack from scratch and want to have a running OpenStack deployment.'] },
+      { type: 'heading', text: 'OpenStack Administrator Training & Certification' },
+      { type: 'para', runs: ['This three day will cover some advanced topics in OpenStack. This training is ideal for individuals who know the basics of OpenStack and want to get a deeper insight into the working on OpenStack and its modules. This will enable participants to configure OpenStack deployment in a wide variety of ways and to test various settings and configurations. This will include explanation of the configuration files, how to interpret logs, correct errors, description of command workflows and some deployment scenarios. The hands-on demonstration for this training will include testing of custom configurations, exploring log files and their explanation and correction of errors by looking at log files.'] },
+      { type: 'heading', text: 'OpenStack Developer Training & Certification' },
+      { type: 'para', runs: ['This three day training is best suited for OpenStack administrators who want to start developing OpenStack and contributing to the OpenStack community. This training will cover development, debugging OpenStack code base, explanation of OpenStack APIs/REST calls, writing a sample OpenStack extension and grass-root level details on OpenStack. Participants will also learn coding practices and methods of contributing in the OpenStack community.'] },
+      { type: 'heading', text: 'OpenStack Customized Training & Certification' },
+      { type: 'para', runs: ['To maximize flexibility, we also offer private OpenStack trainings, which are tailored to suit your needs. This training is specially designed for customers with specific requirements. We let the customer decide on what they want to learn and what type of training they require. Based on the requirements we design a training outline and content as well. The duration for such an activity depends on the customer requirements.'] },
+      { type: 'para', runs: ['We have provided OpenStack training, workshops & certificates at the following institutions:'] },
+      {
+        type: 'list',
+        ordered: false,
+        items: [
+          ['National University of Science and Technology (NUST)'],
+          ['National University of Computer & Emerging Sciences (FAST-NUCES)'],
+          ['Mehran University of Engineering & Technology, Jamshoro'],
+          ['Namal College, Mianwali'],
+        ],
+      },
+    ],
+  },
+  'vulnerability-assessment-services': {
+    blocks: [
+      { type: 'para', runs: ['The purpose of Vulnerability and Scan Services is to identify potential security threats and vulnerabilities in a company’s online systems and to provide the necessary tools and resources to remediate them. The goal is to prevent cyber-attacks, protect sensitive data, and maintain compliance with industry standards.'] },
+      { type: 'para', runs: ['Vulnerability and Scan Services are a comprehensive suite of tools and services that are designed to help companies identify, assess, and mitigate security threats. These services utilize state-of-the-art technology and industry-leading best practices to provide a comprehensive security solution.'] },
+      { type: 'para', runs: [{ b: 'Vulnerability Scanning:' }, ' Perform a thorough scan of your network to identify any potential vulnerabilities that could be exploited by cybercriminals. Provide a detailed report of our findings, along with recommendations for remediation and ways to improve your overall security posture.'] },
+      { type: 'para', runs: [{ b: 'Penetration Testing:' }, ' Offer simulated attacks to test the strength of your defenses and identify any weaknesses that need to be addressed. Our goal is to help proactively detect and mitigate potential threats before they cause harm.'] },
+      { type: 'para', runs: [{ b: 'Compliance Scanning:' }, ' It is designed to help meet regulatory requirements and ensure systems are in compliance with industry standards. Providing customized solutions to help you maintain compliance and protect sensitive data.'] },
+      { type: 'para', runs: [{ b: 'Continuous Monitoring:' }, ' It includes ongoing monitoring to ensure systems remain secure and to promptly detect any new vulnerabilities that may arise. It is to be believed that a proactive and informed approach to security is key to reducing risk and mitigating potential threats.'] },
+    ],
+  },
   'web-application': {
     blocks: [
       { type: 'para', runs: [{ b: 'xFlow Tech' }, ' provides end-to-end web application development services, covering design, development, deployment, and ongoing support. Our approach focuses on building reliable, scalable, and maintainable web applications that meet functional and performance requirements.'] },
       { type: 'heading', text: 'Our Web Application Services Include' },
-      { type: 'para', runs: [{ b: 'Custom Web Application Development' }] },
+      { type: 'heading', text: 'Custom Web Application Development' },
       { type: 'para', runs: ['Design and development of web applications tailored to specific business and technical needs.'] },
-      { type: 'para', runs: [{ b: 'Frontend Development' }] },
+      { type: 'heading', text: 'Frontend Development' },
       { type: 'para', runs: ['Development of user interfaces with a focus on usability, accessibility, and consistency across devices and browsers.'] },
-      { type: 'para', runs: [{ b: 'Backend Development' }] },
+      { type: 'heading', text: 'Backend Development' },
       { type: 'para', runs: ['Implementation of secure and scalable backend services, business logic, and data handling.'] },
-      { type: 'para', runs: [{ b: 'Responsive UI/UX Design' }] },
+      { type: 'heading', text: 'Responsive UI/UX Design' },
       { type: 'para', runs: ['Design of responsive user interfaces that adapt across desktop, tablet, and mobile platforms.'] },
-      { type: 'para', runs: [{ b: 'API Development and Integration' }] },
+      { type: 'heading', text: 'API Development and Integration' },
       { type: 'para', runs: ['Development and integration of APIs for internal services and third-party systems.'] },
-      { type: 'para', runs: [{ b: 'Database Design and Management' }] },
+      { type: 'heading', text: 'Database Design and Management' },
       { type: 'para', runs: ['Database schema design, optimization, and management to support application reliability and performance.'] },
-      { type: 'para', runs: [{ b: 'Web Application Performance Optimization' }] },
+      { type: 'heading', text: 'Web Application Performance Optimization' },
       { type: 'para', runs: ['Performance tuning to improve response times, scalability, and resource efficiency.'] },
-      { type: 'para', runs: [{ b: 'Deployment and Maintenance Support' }] },
+      { type: 'heading', text: 'Deployment and Maintenance Support' },
       { type: 'para', runs: ['Support for application deployment, upgrades, monitoring, and ongoing maintenance.'] },
     ],
   },

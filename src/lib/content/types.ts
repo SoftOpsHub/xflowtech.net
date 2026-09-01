@@ -29,10 +29,27 @@ export interface Service {
 /** A styled run of text inside a paragraph or list item: plain string, or bold/italic. */
 export type InlineRun = string | { b: string } | { i: string };
 
+export interface GalleryItem {
+  image: AssetKey;
+  alt: string;
+  /** Optional external link; when set the tile links out in a new tab. */
+  href?: string;
+  caption?: string;
+}
+
+/** One tab of an {@link ServiceBlock} embed — a third-party interactive frame. */
+export interface EmbedFrame {
+  label: string;
+  src: string;
+  title: string;
+}
+
 export type ServiceBlock =
   | { type: 'para'; runs: InlineRun[] }
   | { type: 'heading'; text: string }
-  | { type: 'list'; ordered: boolean; items: InlineRun[][] };
+  | { type: 'list'; ordered: boolean; items: InlineRun[][] }
+  | { type: 'gallery'; items: GalleryItem[] }
+  | { type: 'embed'; title?: string; frames: EmbedFrame[] };
 
 /** Body content for a service's own page, mirrored from the live site. */
 export interface ServiceContent {
@@ -56,6 +73,8 @@ export interface Product {
   name: string;
   blurb: string;
   image: AssetKey | null;
+  /** Where the card links, as on the live site. null → not a link. */
+  href?: string | null;
 }
 
 export interface PartnerReference {

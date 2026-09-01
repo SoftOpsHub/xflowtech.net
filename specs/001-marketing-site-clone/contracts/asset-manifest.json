@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-08-31",
+  "capturedAt": "2026-09-01",
   "sourceOrigin": "https://xflowresearch.com",
   "assets": [
     {
@@ -212,6 +212,105 @@
       "substitution": null
     },
     {
+      "key": "gis-dubai-land",
+      "localPath": "/assets/gis-dubai-land.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/04/Dubai-land.jpg",
+      "type": "photo",
+      "alt": "Dubai land cover",
+      "bytes": 145909,
+      "sha256": "5f07bca91f20327a3ab614b5e3d9a11773c821160c72c610ff63b417a9496899",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-dubai-rainfall",
+      "localPath": "/assets/gis-dubai-rainfall.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/04/Dubai-rainfall.jpg",
+      "type": "photo",
+      "alt": "Dubai rainfall",
+      "bytes": 67853,
+      "sha256": "14651992c3b52c5465a01ab7bff611596e8d4a78ee2ec6e78645e1bc2c2407d6",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-elevation",
+      "localPath": "/assets/gis-elevation.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/Elevation.png",
+      "type": "photo",
+      "alt": "Elevation mapping",
+      "bytes": 60843,
+      "sha256": "dcfc3e771154f39e99f6b5718cbb3c91bd050baa0d1428cbbd1e4c2214e3727e",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-iran-geology",
+      "localPath": "/assets/gis-iran-geology.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/07/Iran-Geology.png",
+      "type": "photo",
+      "alt": "Geology of Iran",
+      "bytes": 359650,
+      "sha256": "0d6d10652a9a389718e4a26353a05e610c312695d16d07a464afa7f05ecf8997",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-islamabad",
+      "localPath": "/assets/gis-islamabad.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/04/ISlamabad.jpg",
+      "type": "photo",
+      "alt": "Islamabad land cover",
+      "bytes": 109961,
+      "sha256": "7d7bcf0a235b0e5bc3a7a1bd3f3052524ecbdb28fb95a83f8889cd1d2f48d4c1",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-pakistan-rivers-map",
+      "localPath": "/assets/gis-pakistan-rivers-map.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/themes/altitude-pro/images/pak_rivers.png",
+      "type": "photo",
+      "alt": "Pakistan rivers interactive map",
+      "bytes": 49282,
+      "sha256": "e2441bf06afcdc633b395150e2bea31a2109f9242ce43e825c32765e6e550f44",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-pakistan-universities-map",
+      "localPath": "/assets/gis-pakistan-universities-map.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/themes/altitude-pro/images/pak_unis.png",
+      "type": "photo",
+      "alt": "Pakistan universities interactive map",
+      "bytes": 275826,
+      "sha256": "d4aaaac4d61162b573359b4ae9f176cf6fdd99a2fc7141d4989705d2eb01a0d9",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-rainfall",
+      "localPath": "/assets/gis-rainfall.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/Rainfall.png",
+      "type": "photo",
+      "alt": "Rainfall data analysis",
+      "bytes": 103837,
+      "sha256": "3c9dc769f22ef1998e9091b434f20cceabadce0f82aedfd953bc99d9399cf8c0",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-soil-pakistan",
+      "localPath": "/assets/gis-soil-pakistan.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/Soil-of-Pakistan.png",
+      "type": "photo",
+      "alt": "Soil mapping of Pakistan",
+      "bytes": 114687,
+      "sha256": "b1c764555a3312b18fc21fe717363226e91dc7396a991c6147faed62d036eda7",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
       "key": "gis-telco",
       "localPath": "/assets/gis-telco.png",
       "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/12/gis-telco.png",
@@ -220,6 +319,94 @@
       "bytes": 174224,
       "sha256": "9bf5df16f6dcc4432b09bf45f8379ec2d631ed17c42b5b25cb0f52cb6935fd60",
       "capturedAt": "2026-08-31",
+      "substitution": null
+    },
+    {
+      "key": "gis-telco-cell-ids",
+      "localPath": "/assets/gis-telco-cell-ids.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/12/Cell-ids-and-calls.jpg",
+      "type": "photo",
+      "alt": "4G/5G cell IDs and call load",
+      "bytes": 69161,
+      "sha256": "390f926dbd15da243a55458dca0fb468d026934a4ba150303c734afadf84fd70",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-telco-uae-sectors",
+      "localPath": "/assets/gis-telco-uae-sectors.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/12/UAE-sectors.jpg",
+      "type": "photo",
+      "alt": "UAE network sectors",
+      "bytes": 59690,
+      "sha256": "48d51770dbf6ba6e969e0a1a879a68efe78d0fa32008e594941c2d42a1883a88",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-temperature",
+      "localPath": "/assets/gis-temperature.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/Temperature.png",
+      "type": "photo",
+      "alt": "Temperature data visualization",
+      "bytes": 62883,
+      "sha256": "2435d1edf70ed2dd0bd2bef2b8f476b2a66c6ebd4c693f47e5c08287b828d1a7",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-uae-administration",
+      "localPath": "/assets/gis-uae-administration.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/UAE-Administration.png",
+      "type": "photo",
+      "alt": "UAE administrative boundaries",
+      "bytes": 97983,
+      "sha256": "6543fcca51fbfec769cfdf6601408f8c9adc1a982ef22fa81f9c9ce052eaf429",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-uae-industrial-transport",
+      "localPath": "/assets/gis-uae-industrial-transport.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/UAE-Industrial-areas-and-Transportation.png",
+      "type": "photo",
+      "alt": "UAE industrial areas and transportation",
+      "bytes": 123284,
+      "sha256": "c2f608a2c1c5f2bfac5475f443693d590ebec0a8520928dfe4ec5ba74dedd2bb",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-uae-population",
+      "localPath": "/assets/gis-uae-population.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/UAE-population.png",
+      "type": "photo",
+      "alt": "UAE population density",
+      "bytes": 73582,
+      "sha256": "d793f2914a3aa323b5f252aa2b559cf424d28503924c9f1a699170e6af097c29",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-uae-temperature",
+      "localPath": "/assets/gis-uae-temperature.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/04/UAE-temp.jpg",
+      "type": "photo",
+      "alt": "UAE temperature",
+      "bytes": 134280,
+      "sha256": "774840a4cd15096b0538e6b0ee4d7136f2628a21d3901610c30a2c7ed382a5a7",
+      "capturedAt": "2026-09-01",
+      "substitution": null
+    },
+    {
+      "key": "gis-world-flow-map",
+      "localPath": "/assets/gis-world-flow-map.jpg",
+      "sourceUrl": "https://xflowresearch.com/wp-content/uploads/2025/03/world-flow-map.png",
+      "type": "photo",
+      "alt": "World flight-flow map",
+      "bytes": 169495,
+      "sha256": "f7410624eeffe00817f0f4ced4a6195c85094d32b6338c7a16476971d729af56",
+      "capturedAt": "2026-09-01",
       "substitution": null
     },
     {
