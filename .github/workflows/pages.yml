@@ -1,0 +1,88 @@
+# Builds the static export and publishes it to GitHub Pages.
+#
+# The site is served from the apex custom domain, so no basePath/assetPrefix is
+# needed — the export is deployed at the root of the domain.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# One production deploy at a time. Queued runs collapse to the newest, but an
+# in-flight deploy is never cancelled — a half-published site is worse than a
+# slightly stale one.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build static export
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      # configure-pages needs these to enable Pages on a fresh repo.
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup toolchain
+        uses: ./.github/actions/setup
+
+      # Makes the workflow self-sufficient: if Pages has never been turned on
+      # for this repo, this enables it with the Actions build type.
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+        with:
+          enablement: true
+
+      # Gate the deploy on the same checks the PR gate runs. main is
+      # PR-protected, but bypasses exist — nothing broken should reach the
+      # public site.
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Unit tests
+        run: pnpm test
+
+      - name: Build static export
+        run: pnpm build
+
+      # Repo guard: fails if the export leaks a source-origin or third-party
+      # asset/font reference.
+      - name: Verify export
+        run: node scripts/check-build-output.mjs
+
+      # Next emits _next/; belt-and-braces so nothing downstream strips
+      # underscore-prefixed paths.
+      - name: Disable Jekyll processing
+        run: touch out/.nojekyll
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: out
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

@@ -1,0 +1,38 @@
+# Shared setup for every job: pnpm, Node, dependencies, Next.js build cache.
+# Both the PR gate (ci.yml) and the Pages deploy (pages.yml) use this, so the
+# two can never drift apart.
+name: Setup toolchain
+description: Install pnpm and Node, restore caches, and install dependencies.
+
+runs:
+  using: composite
+  steps:
+    # Version is read from package.json "packageManager" — one source of truth
+    # shared with local dev via corepack.
+    - name: Install pnpm
+      uses: pnpm/action-setup@v6
+
+    # Version is read from .nvmrc — same file local dev uses.
+    - name: Install Node
+      uses: actions/setup-node@v7
+      with:
+        node-version-file: .nvmrc
+        cache: pnpm
+
+    - name: Install dependencies
+      shell: bash
+      run: pnpm install --frozen-lockfile
+      env:
+        # Git hooks are for humans; CI runs the same checks explicitly.
+        HUSKY: "0"
+
+    # Next keeps its compiler cache here. Restoring it turns a cold ~60s build
+    # into an incremental one; the key falls back to any build of the same
+    # dependency set when sources change.
+    - name: Restore Next.js build cache
+      uses: actions/cache@v6
+      with:
+        path: .next/cache
+        key: next-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ hashFiles('app/**', 'src/**', 'public/**', 'next.config.ts') }}
+        restore-keys: |
+          next-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-
