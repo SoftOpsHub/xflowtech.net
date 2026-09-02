@@ -16,7 +16,7 @@ The site exposes exactly four static outputs. Paths MUST match the live site (FR
   breakpoint, links collapse behind a toggle button bound to `ui-store` `mobileNavOpen`;
   toggle is a real `<button>` with `aria-expanded` / `aria-controls`.
 - `<SiteFooter>` — landmark `<footer>` containing exactly the live copyright line
-  `© 2026 · xFlow Tech Inc · All Rights Reserved` (FR-004).
+  `© 2026 · xFlow Inc · All Rights Reserved` (FR-004).
 - `<main>` wraps page sections; skip-to-content link precedes the header.
 
 ## Per-page section order

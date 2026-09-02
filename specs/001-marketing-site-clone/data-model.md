@@ -1,4 +1,4 @@
-# Phase 1 Data Model: xFlow Tech Marketing Site Clone
+# Phase 1 Data Model: xFlow Marketing Site Clone
 
 All "data" here is compile-time TypeScript in `src/lib/content/**` plus static files in
 `public/assets/**`. Nothing is persisted at runtime.
@@ -105,7 +105,7 @@ capture).
 
 | Field        | Type                   | Rules                                                                                 |
 | ------------ | ---------------------- | ------------------------------------------------------------------------------------- |
-| entity       | string                 | legal name, e.g. "xFlow Tech Inc."                                                |
+| entity       | string                 | legal name, e.g. "xFlow Inc."                                                |
 | addressLines | string[]               | full postal address as shown                                                          |
 | email        | string \| null         | `info@xflowresearch.com` where the live site shows it; rendered as `mailto:` (FR-007) |
 | region       | `'AE' \| 'US' \| 'PK'` | for optional ordering/labelling                                                       |
@@ -114,8 +114,8 @@ capture).
 
 1. `X Flow Software Technology LLC` — Office 304 Al Wahda Building, Port Saeed Road, Deira,
    Dubai, UAE — `info@xflowresearch.com`
-2. `xFlow Tech Inc.` — Austin, Texas, USA — `info@xflowresearch.com`
-3. `xFlow Tech Pvt. Ltd.` — First Floor, Plot # 100-A, Street 14, Industrial Area,
+2. `xFlow Inc.` — Austin, Texas, USA — `info@xflowresearch.com`
+3. `xFlow Pvt. Ltd.` — First Floor, Plot # 100-A, Street 14, Industrial Area,
    Sector I-9/2, Islamabad, Pakistan — (no email on live site)
 
 **Source**: `src/lib/content/offices.ts`.
@@ -144,8 +144,8 @@ human-readable copy tracked at `specs/001-marketing-site-clone/contracts/asset-i
 | Field      | Type                                | Notes                                                                |
 | ---------- | ----------------------------------- | -------------------------------------------------------------------- |
 | navItems   | `{ label: string; href: string }[]` | `Home → /`, `About Us → /about-us`, `Contact Us → /contact` (FR-004) |
-| siteName   | string                              | "xFlow Tech"                                                     |
-| footerText | string                              | "© 2026 · xFlow Tech Inc · All Rights Reserved" (FR-004)         |
+| siteName   | string                              | "xFlow"                                                     |
+| footerText | string                              | "© 2026 · xFlow Inc · All Rights Reserved" (FR-004)         |
 | logo       | AssetKey                            | brand logo(s)                                                        |
 
 **Source**: `src/lib/content/site.ts`.

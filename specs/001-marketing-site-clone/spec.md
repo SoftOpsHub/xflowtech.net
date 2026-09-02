@@ -1,4 +1,4 @@
-# Feature Specification: xFlow Tech Marketing Site Clone
+# Feature Specification: xFlow Marketing Site Clone
 
 **Feature Branch**: `001-marketing-site-clone`
 
@@ -10,7 +10,7 @@
 
 ## Overview
 
-Rebuild the public xFlow Tech marketing website (`xflowresearch.com`) as a self-contained
+Rebuild the public xFlow marketing website (`xflowresearch.com`) as a self-contained
 static site. The rebuilt site must look and read the same as the current live site, page for
 page, and must serve every image, logo, and other media from within this project rather than
 from the original domain or any third-party host.
@@ -21,10 +21,10 @@ has no contact form, login, search, blog, or any other server-backed behaviour.
 
 ## User Scenarios & Testing _(mandatory)_
 
-### User Story 1 - Prospective client evaluates xFlow Tech on the home page (Priority: P1)
+### User Story 1 - Prospective client evaluates xFlow on the home page (Priority: P1)
 
 A telecom or enterprise decision-maker lands on the home page from a referral or search result.
-They need to quickly understand who xFlow Tech is and the full breadth of what the company
+They need to quickly understand who xFlow is and the full breadth of what the company
 offers — services, open-source contributions, research and standardization involvement, and
 products — presented exactly as on the current site.
 
@@ -84,8 +84,8 @@ address are present and correct, and that the email is a working `mailto:` link.
 **Acceptance Scenarios**:
 
 1. **Given** the rebuilt site, **When** a visitor opens `/contact`, **Then** they see the three
-   office locations — X Flow Software Technology LLC (Dubai, UAE), xFlow Tech Inc. (Austin,
-   Texas, USA), and xFlow Tech Pvt. Ltd. (Islamabad, Pakistan) — with the same addresses as
+   office locations — X Flow Software Technology LLC (Dubai, UAE), xFlow Inc. (Austin,
+   Texas, USA), and xFlow Pvt. Ltd. (Islamabad, Pakistan) — with the same addresses as
    the live site.
 2. **Given** the Contact page, **When** the visitor selects the `info@xflowresearch.com` email,
    **Then** their mail client opens a new message to that address.
@@ -144,9 +144,9 @@ still render.
   and responsive behaviour — MUST match the live site to a close visual tolerance at both a
   representative desktop width and a representative mobile width.
 - **FR-004**: A shared navigation (Home, About Us, Contact Us) and a shared footer (copyright
-  line "© 2026 · xFlow Tech Inc · All Rights Reserved") MUST appear on every page and match
+  line "© 2026 · xFlow Inc · All Rights Reserved") MUST appear on every page and match
   the live site.
-- **FR-005**: All media shown on the live site — the xFlow Tech logo, section illustrations
+- **FR-005**: All media shown on the live site — the xFlow logo, section illustrations
   and icons, partner and technology logos, and product images — MUST be captured from the live
   site and stored within this project as local static assets.
 - **FR-006**: At runtime the site MUST NOT load images, fonts, style, or scripts from
@@ -213,7 +213,7 @@ still render.
 - **Ownership and rights**: The organisation commissioning this rebuild owns or controls
   `xflowresearch.com` and its content, and has the right to reproduce its text, images, and its
   own logo. Partner, client, and technology logos are reproduced in the same context and
-  prominence in which xFlow Tech already publishes them on the current live site.
+  prominence in which xFlow already publishes them on the current live site.
 - **Scope is the current three-page navigation**: Home, About Us, and Contact. No blog, no
   search, no gated or authenticated area, and no standalone per-service or per-product detail
   pages. If such pages are discovered on the live site during capture, they are logged as

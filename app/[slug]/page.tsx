@@ -30,7 +30,7 @@ export async function generateMetadata({
   const match = findService(slug) ?? findProduct(slug);
   if (!match) return {};
   return {
-    title: `${match.name} — xFlow Tech`,
+    title: `${match.name} — xFlow`,
     description: match.blurb,
   };
 }

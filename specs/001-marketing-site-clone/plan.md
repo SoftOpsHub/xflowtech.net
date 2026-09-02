@@ -1,4 +1,4 @@
-# Implementation Plan: xFlow Tech Marketing Site Clone
+# Implementation Plan: xFlow Marketing Site Clone
 
 **Branch**: `001-marketing-site-clone` | **Date**: 2026-08-31 | **Spec**: [spec.md](./spec.md)
 
@@ -6,7 +6,7 @@
 
 ## Summary
 
-Rebuild the public xFlow Tech marketing site (`xflowresearch.com` — a WordPress site) as a
+Rebuild the public xFlow marketing site (`xflowresearch.com` — a WordPress site) as a
 faithful static site on this repo's Next.js static-export stack. Three pages — Home (`/`), About
 Us (`/about-us`), Contact (`/contact`) — are recreated section-by-section as composed React
 components. All text is transcribed into typed content data and section components; all media
@@ -134,7 +134,7 @@ public/
 ├── favicon.ico
 ├── og/                          # social-share preview image(s)
 └── assets/
-    ├── brand/                   # xFlow Tech logo (light/dark variants)
+    ├── brand/                   # xFlow logo (light/dark variants)
     ├── icons/                   # service/section icons
     ├── partners/                # partner + technology logos
     └── products/                # product images

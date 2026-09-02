@@ -1,4 +1,4 @@
-# Specification Quality Checklist: xFlow Tech Marketing Site Clone
+# Specification Quality Checklist: xFlow Marketing Site Clone
 
 **Purpose**: Validate specification completeness and quality before proceeding to planning
 **Created**: 2026-08-31

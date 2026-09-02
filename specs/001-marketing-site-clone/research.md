@@ -1,4 +1,4 @@
-# Phase 0 Research: xFlow Tech Marketing Site Clone
+# Phase 0 Research: xFlow Marketing Site Clone
 
 The spec carried no `[NEEDS CLARIFICATION]` markers. This document records the technical
 decisions that shape Phase 1 design.

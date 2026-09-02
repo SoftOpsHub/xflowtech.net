@@ -7,7 +7,7 @@ test.describe('contact page', () => {
     await expect(
       page.getByRole('heading', { name: 'X Flow Software Technology LLC' }),
     ).toBeVisible();
-    for (const entity of ['xFlow Tech Inc.', 'xFlow Tech Pvt. Ltd.']) {
+    for (const entity of ['xFlow Inc.', 'xFlow Pvt. Ltd.']) {
       await expect(page.getByRole('heading', { name: entity })).toHaveCount(0);
     }
 

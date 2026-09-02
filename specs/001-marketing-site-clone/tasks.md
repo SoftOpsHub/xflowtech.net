@@ -1,8 +1,8 @@
 ---
-description: 'Task list for xFlow Tech Marketing Site Clone'
+description: 'Task list for xFlow Marketing Site Clone'
 ---
 
-# Tasks: xFlow Tech Marketing Site Clone
+# Tasks: xFlow Marketing Site Clone
 
 **Input**: Design documents from `specs/001-marketing-site-clone/`
 
@@ -50,7 +50,7 @@ content types, and site chrome that every story needs.
 
 ### Content spine
 
-- [x] T009 [P] Create `src/lib/content/site.ts` exporting `SITE: SiteMeta` — `siteName` "xFlow Tech", `logo`/`logoAlt`, `navItems` (`Home`→`/`, `About Us`→`/about-us`, `Contact Us`→`/contact`), `footerText` "© 2026 · xFlow Tech Inc · All Rights Reserved"
+- [x] T009 [P] Create `src/lib/content/site.ts` exporting `SITE: SiteMeta` — `siteName` "xFlow", `logo`/`logoAlt`, `navItems` (`Home`→`/`, `About Us`→`/about-us`, `Contact Us`→`/contact`), `footerText` "© 2026 · xFlow Inc · All Rights Reserved"
 - [x] T010 [P] Create `src/lib/content/metadata.ts` exporting `PAGES: Record<'/'|'/about-us'|'/contact', PageMeta>` with `title`/`description` mirroring the live `<title>` + meta description of each page, `ogImage`, and ordered `sections`
 - [x] T011 [P] Write content guard test `src/lib/content/tests/content.test.ts` — asserts every `AssetKey` used in any content module exists in `public/assets/manifest.json`; `SITE.navItems` = the 3 real routes; no content string contains `xflowresearch.com/wp-content`; `PAGES[p].sections` non-empty (per `contracts/content-schema.md` invariants 1–6)
 
@@ -125,7 +125,7 @@ matches the live page; shared header/footer present; reachable from the nav on e
 **Independent Test**: Open `/contact`; three office blocks with correct addresses; `info@xflowresearch.com`
 is a working `mailto:` link; no form present.
 
-- [x] T043 [P] [US3] `src/lib/content/offices.ts` → `OFFICES: readonly OfficeLocation[]` (length 3) — X Flow Software Technology LLC (Dubai, `info@xflowresearch.com`), xFlow Tech Inc. (Austin TX, `info@xflowresearch.com`), xFlow Tech Pvt. Ltd. (Islamabad, `email: null`) with exact `addressLines` from `data-model.md`
+- [x] T043 [P] [US3] `src/lib/content/offices.ts` → `OFFICES: readonly OfficeLocation[]` (length 3) — X Flow Software Technology LLC (Dubai, `info@xflowresearch.com`), xFlow Inc. (Austin TX, `info@xflowresearch.com`), xFlow Pvt. Ltd. (Islamabad, `email: null`) with exact `addressLines` from `data-model.md`
 - [x] T044 [P] [US3] `src/components/sections/OfficeList.tsx` — 3-up responsive card grid; render `addressLines`; render `email` as `mailto:` link when present
 - [x] T045 [US3] `app/contact/page.tsx` — `metadata` from `PAGES['/contact']`; render `<OfficeList/>` inside `<Container>`
 - [x] T046 [P] [US3] Extend content guard test `src/lib/content/tests/content.test.ts` — `OFFICES` length 3; each has ≥1 address line; Dubai + Austin carry `email` (invariant 3)
@@ -160,7 +160,7 @@ every image/font renders; the asset inventory accounts for every file with a sou
 - [ ] T055 [P] Audit all motion for `prefers-reduced-motion` (spec edge case); gate any entrance animation in `app/globals.css`
 - [ ] T056 [P] Performance check — `pnpm build` + serve `out/`; Lighthouse desktop Performance & Accessibility ≥ 95; confirm pages readable <1s / interactive <2s on throttled broadband (SC-005); add `loading`/`width`/`height` to images to prevent layout shift
 - [ ] T057 [P] `favicon` + `og/*` wired (`app/icon.*`, `openGraph.images` in metadata); verify social preview renders
-- [ ] T058 [P] Update `README.md` — replace scaffold blurb with a short xFlow Tech site overview + link to `specs/001-marketing-site-clone/quickstart.md`; note the asset-capture step
+- [ ] T058 [P] Update `README.md` — replace scaffold blurb with a short xFlow site overview + link to `specs/001-marketing-site-clone/quickstart.md`; note the asset-capture step
 - [x] T059 Run full gate: `pnpm typecheck && pnpm lint && pnpm test && pnpm build && pnpm test:e2e`; serve `out/` as static files and confirm SC-007
 - [ ] T060 Reviewer sign-off on SC-001 (content complete) and SC-002 (visual match) across all three pages; record in `specs/001-marketing-site-clone/checklists/requirements.md` notes
 

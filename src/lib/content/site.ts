@@ -1,7 +1,7 @@
 import type { SiteMeta } from './types';
 
 export const SITE: SiteMeta = {
-  siteName: 'xFlow Tech',
+  siteName: 'xFlow',
   logo: 'xflow-logo',
   logoAlt: 'xFlow',
   navItems: [

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Container } from '@/src/components/layout/Container';
 
 export const metadata: Metadata = {
-  title: 'Coming Soon — xFlow Tech',
+  title: 'Coming Soon — xFlow',
 };
 
 export default function ComingSoonPage() {

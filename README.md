@@ -1,4 +1,4 @@
-# XFLOW Tech
+# XFLOW
 
 Research repo for XFLOW frontend work — a static website with no backend,
 built with Next.js 16 (App Router, static export), TypeScript strict, and pnpm.

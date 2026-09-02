@@ -1,4 +1,4 @@
-# Quickstart: Validate the xFlow Tech Marketing Site Clone
+# Quickstart: Validate the xFlow Marketing Site Clone
 
 End-to-end validation that the rebuilt site meets the spec. Run from repo root.
 
