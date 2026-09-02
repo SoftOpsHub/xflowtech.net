@@ -13,11 +13,11 @@ export interface NavItem {
 }
 
 export interface SiteMeta {
-  siteName: string; // "xFlow Tech"
+  siteName: string; // "xFlow"
   logo: AssetKey; // brand/logo
   logoAlt: string;
   navItems: NavItem[]; // exactly 3, in live order
-  footerText: string; // "© 2026 · xFlow Tech Inc · All Rights Reserved"
+  footerText: string; // "© 2026 · xFlow Inc · All Rights Reserved"
 }
 
 export interface Service {

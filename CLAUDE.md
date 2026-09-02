@@ -1,4 +1,4 @@
-# XFLOW Tech
+# XFLOW
 
 A research repo for XFLOW frontend work: a **static website with no backend**,
 built and shipped as a fully static export. There is no server, no auth, no API

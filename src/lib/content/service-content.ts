@@ -25,12 +25,12 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'api': {
     blocks: [
-      { type: 'para', runs: ['xFlow Tech also offers ', { b: 'API development services using Node.js' }, ', focusing on building lightweight and high-performance backend APIs. Our APIs are designed for internal systems, web applications, and third-party integrations, with an emphasis on clear structure, proper documentation, and scalability.'] },
+      { type: 'para', runs: ['xFlow also offers ', { b: 'API development services using Node.js' }, ', focusing on building lightweight and high-performance backend APIs. Our APIs are designed for internal systems, web applications, and third-party integrations, with an emphasis on clear structure, proper documentation, and scalability.'] },
     ],
   },
   'cloud-and-devops-services': {
     blocks: [
-      { type: 'para', runs: ['xFlow Tech has strong expertise in Cloud and DevOps. We can help organizations build software faster and more reliably through modern ', { b: 'Cloud and DevOps practices' }, '. We automate processes, manage cloud platforms, and build efficient pipelines that support continuous delivery and scalability.'] },
+      { type: 'para', runs: ['xFlow has strong expertise in Cloud and DevOps. We can help organizations build software faster and more reliably through modern ', { b: 'Cloud and DevOps practices' }, '. We automate processes, manage cloud platforms, and build efficient pipelines that support continuous delivery and scalability.'] },
       { type: 'para', runs: ['Our key services include:'] },
       { type: 'heading', text: 'CI/CD Pipelines' },
       {
@@ -131,7 +131,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
         ],
       },
       { type: 'heading', text: 'Governance, Risk and Compliance' },
-      { type: 'para', runs: ['xFlow Tech’s Governance, Risk, and Compliance (GRC) solution assists enterprises in strengthening their overall security posture by minimizing risk exposure, assuring adherence to industry requirements, and aligning with information security best practices and standards.'] },
+      { type: 'para', runs: ['xFlow’s Governance, Risk, and Compliance (GRC) solution assists enterprises in strengthening their overall security posture by minimizing risk exposure, assuring adherence to industry requirements, and aligning with information security best practices and standards.'] },
       { type: 'para', runs: ['Service we offer:'] },
       {
         type: 'list',
@@ -161,7 +161,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'gis': {
     blocks: [
-      { type: 'para', runs: ['xFlow Tech is conducting GIS research across a range of spatial data domains to support advanced analysis and visualization. Our ongoing work includes:'] },
+      { type: 'para', runs: ['xFlow is conducting GIS research across a range of spatial data domains to support advanced analysis and visualization. Our ongoing work includes:'] },
       {
         type: 'list',
         ordered: false,
@@ -226,7 +226,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'gis-in-telecommunication': {
     blocks: [
-      { type: 'para', runs: ['xFlow Tech is also conducting research and development in Geographic Information Systems (GIS) for telecom use cases. Our work focuses on using location-based data to improve network visibility, analysis, and operational decision-making.'] },
+      { type: 'para', runs: ['xFlow is also conducting research and development in Geographic Information Systems (GIS) for telecom use cases. Our work focuses on using location-based data to improve network visibility, analysis, and operational decision-making.'] },
       { type: 'heading', text: 'Proofs of Concept (PoCs)' },
       { type: 'para', runs: ['As part of our R&D efforts, we have developed several proof-of-concept solutions with synthetic data, including:'] },
       {
@@ -249,7 +249,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'monitoring-solutions': {
     blocks: [
-      { type: 'para', runs: ['At xFlow Tech, we design and implement monitoring solutions tailored to your infrastructure: whether it’s network, hardware, or applications.'] },
+      { type: 'para', runs: ['At xFlow, we design and implement monitoring solutions tailored to your infrastructure: whether it’s network, hardware, or applications.'] },
       { type: 'para', runs: ['Our services are focused on the tools including:'] },
       {
         type: 'list',
@@ -266,7 +266,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'nfv': {
     blocks: [
-      { type: 'para', runs: ['xFlow Tech Inc. offers specialized services in Network Function Virtualization (NFV). Our focus in NFV is on Research and development related to NFVI, VNF, and MANO. We provide industry leading technology development that will enable you to quickly demonstrate, develop and market your ideas.'] },
+      { type: 'para', runs: ['xFlow Inc. offers specialized services in Network Function Virtualization (NFV). Our focus in NFV is on Research and development related to NFVI, VNF, and MANO. We provide industry leading technology development that will enable you to quickly demonstrate, develop and market your ideas.'] },
       { type: 'para', runs: ['We also offer our services to extend your existing projects/products in the revolutionary NFV domain. We bring agility to product development lifecycle by developing automation tools to quickly demonstrate and market your products in NFV domain.'] },
       { type: 'para', runs: ['We are actively involved in Research and Development in NFV and have successfully completed PoC projects with industry leaders in NFV.'] },
       { type: 'heading', text: 'vBRAS' },
@@ -276,15 +276,15 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       { type: 'heading', text: 'NFVI' },
       { type: 'para', runs: ['Our services include designing and development of Compute, Control, Network and Storage blend that can build an efficient scalable NFV solution.'] },
       { type: 'heading', text: 'MANO' },
-      { type: 'para', runs: ['xFlow Tech provides state-of-the-art development, integration and testing services in Management and Network Orchestration.'] },
+      { type: 'para', runs: ['xFlow provides state-of-the-art development, integration and testing services in Management and Network Orchestration.'] },
     ],
   },
   'open-source-contributions-and-development': {
     blocks: [
       { type: 'para', runs: ['We are members of the ', { b: 'CAMARA open-source project under the Linux Foundation' }, ' and contribute to its ongoing development and evolution.'] },
       { type: 'heading', text: 'CAMARA DeviceAuthenticity API' },
-      { type: 'para', runs: ['xFlow Tech has successfully introduced the ', { b: 'Device Authenticity API' }, ' within the CAMARA project. We serve as the', { b: ' owner of this API repository' }, ' and actively contribute to its maintenance and future enhancements.'] },
-      { type: 'para', runs: ['As part of this role, xFlow Tech:'] },
+      { type: 'para', runs: ['xFlow has successfully introduced the ', { b: 'Device Authenticity API' }, ' within the CAMARA project. We serve as the', { b: ' owner of this API repository' }, ' and actively contribute to its maintenance and future enhancements.'] },
+      { type: 'para', runs: ['As part of this role, xFlow:'] },
       {
         type: 'list',
         ordered: false,
@@ -332,7 +332,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
           ['Component guides and deployment instructions'],
         ],
       },
-      { type: 'para', runs: [{ b: 'xFlow Tech' }, ' actively contributes to the ', { b: 'Community SONiC' }, ' project by developing new features, fixing bugs, and improving the performance and stability of existing components. Our work focuses on practical enhancements that align with real operational requirements.'] },
+      { type: 'para', runs: [{ b: 'xFlow' }, ' actively contributes to the ', { b: 'Community SONiC' }, ' project by developing new features, fixing bugs, and improving the performance and stability of existing components. Our work focuses on practical enhancements that align with real operational requirements.'] },
       { type: 'heading', text: 'Contribution Highlights' },
       {
         type: 'list',
@@ -364,7 +364,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'professional-services': {
     blocks: [
-      { type: 'para', runs: ['xFlow Tech offers a range of IT services to meet the unique needs of our clients. Our expertise includes the deployment of IT infrastructure, managed services, on-premises support, monitoring and remote technical assistance. Our primary focus is to provide exceptional service and ensure customer satisfaction.'] },
+      { type: 'para', runs: ['xFlow offers a range of IT services to meet the unique needs of our clients. Our expertise includes the deployment of IT infrastructure, managed services, on-premises support, monitoring and remote technical assistance. Our primary focus is to provide exceptional service and ensure customer satisfaction.'] },
       { type: 'para', runs: ['Our services include:'] },
       {
         type: 'list',
@@ -387,7 +387,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'project-management': {
     blocks: [
-      { type: 'para', runs: ['xFlow Tech specializes in providing end-to-end ', { b: 'Project Management Services' }, ' designed to ensure successful delivery, transparency, and alignment with business goals. Our approach is structured, detail-oriented, and flexible to support a wide range of industries and project types.'] },
+      { type: 'para', runs: ['xFlow specializes in providing end-to-end ', { b: 'Project Management Services' }, ' designed to ensure successful delivery, transparency, and alignment with business goals. Our approach is structured, detail-oriented, and flexible to support a wide range of industries and project types.'] },
       { type: 'para', runs: ['Our project management services include:'] },
       { type: 'heading', text: 'Project Initiation & Planning' },
       {
@@ -447,11 +447,11 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   'quantum-research': {
     blocks: [
       { type: 'heading', text: 'Driving Innovation: Our Quantum Journey' },
-      { type: 'para', runs: ['At xFlow Tech, we believe quantum technology will reshape the future of computing and security. As computers become more powerful, the way we protect data must evolve too. That is why we are building a team of researchers and engineers dedicated to exploring these new technologies. Our work combines deep study, hands-on testing, and strong partnerships to stay ahead of the curve. Together, we are turning complex quantum science into practical tools that help keep the digital world secure.'] },
+      { type: 'para', runs: ['At xFlow, we believe quantum technology will reshape the future of computing and security. As computers become more powerful, the way we protect data must evolve too. That is why we are building a team of researchers and engineers dedicated to exploring these new technologies. Our work combines deep study, hands-on testing, and strong partnerships to stay ahead of the curve. Together, we are turning complex quantum science into practical tools that help keep the digital world secure.'] },
       { type: 'heading', text: 'Our Role in Addressing the Quantum Threat' },
       { type: 'para', runs: ['Quantum computers will soon break today’s security locks. We are working to stay ahead of this challenge. Our team specializes in two approaches: Quantum Key Distribution (QKD), which uses the laws of physics to share secure keys, and Quantum-Safe Cryptography (QSC), which uses new mathematical locks that quantum computers cannot crack. We are actively helping to shape global security standards and have already deployed ML-KEM, the new NIST-approved quantum-safe algorithm, into our own systems. We are also building a Quantum-Safe VPN that uses this technology to create a secure tunnel, protecting data from the “harvest now, decrypt later” threat.'] },
       { type: 'heading', text: 'Protection against Quantum Computers' },
-      { type: 'para', runs: ['At xFlow Tech, we are working on new ways to protect data against this future threat. Our approach combines two strategies: Quantum Key Distribution (QKD), which uses the laws of physics to share secure keys, and Post-Quantum Cryptography (PQC), which uses advanced mathematics to create locks that quantum computers cannot crack. We are also helping to shape global security standards to ensure these new protections are adopted worldwide.'] },
+      { type: 'para', runs: ['At xFlow, we are working on new ways to protect data against this future threat. Our approach combines two strategies: Quantum Key Distribution (QKD), which uses the laws of physics to share secure keys, and Post-Quantum Cryptography (PQC), which uses advanced mathematics to create locks that quantum computers cannot crack. We are also helping to shape global security standards to ensure these new protections are adopted worldwide.'] },
       { type: 'heading', text: 'PQC' },
       { type: 'para', runs: ['Post-Quantum Cryptography, or PQC, refers to new cryptographic algorithms designed to be secure against both classical and quantum computers. Think of it as upgrading your locks to ones that even the most powerful future tools cannot pick. Unlike QKD, which requires specialized hardware, PQC works entirely through software and can be deployed on existing systems. This makes it a practical and scalable solution for protecting data today and in the future. We are actively studying and implementing these new algorithms, contributing to global standardization efforts, and helping organizations transition to quantum-safe security.'] },
       { type: 'heading', text: 'ML-KEM' },
@@ -474,7 +474,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
       },
       { type: 'para', runs: ['No matter your level of expertise, this tool will give you a clear, intuitive understanding of how signatures protect your digital life both today and in the quantum future.'] },
       { type: 'heading', text: 'Interactive Quantum Visualizations' },
-      { type: 'para', runs: ['To complement our theoretical research and experimental implementations, xFlow Tech has developed a set of interactive HTML-based visualizations that intuitively demonstrate key quantum and photonic concepts. These visual tools are designed to bridge the gap between abstract quantum theory and physical intuition, making complex ideas easier to explore and understand.'] },
+      { type: 'para', runs: ['To complement our theoretical research and experimental implementations, xFlow has developed a set of interactive HTML-based visualizations that intuitively demonstrate key quantum and photonic concepts. These visual tools are designed to bridge the gap between abstract quantum theory and physical intuition, making complex ideas easier to explore and understand.'] },
       {
         type: 'list',
         ordered: false,
@@ -504,20 +504,20 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
         items: [
           [{ b: 'Qiskit Advocate:' }, ' We will demonstrate a higher level of proficiency and contribution to the quantum open-source community, achieving higher levels of expertise.'],
           [{ b: 'Establishing Strategic Alliances:' }, ' We plan to explore and prepare with different companies. This initiative is aimed at combining our internal expertise with external market leaders to accelerate our development.'],
-          [{ b: 'Executing Internal PoCs:' }, ' We will leverage the results of our hardware evaluation to launch many internal Proof-of-Concepts. These PoCs will focus on validating quantum advantages in specific areas relevant to xFlow Tech. Our QVPN project already serves as a prime example of this approach, validating quantum-safe networking protocols in a live operational environment while ensuring strict alignment with the emerging ETSI QKD and QSC specifications we actively contribute to'],
+          [{ b: 'Executing Internal PoCs:' }, ' We will leverage the results of our hardware evaluation to launch many internal Proof-of-Concepts. These PoCs will focus on validating quantum advantages in specific areas relevant to xFlow. Our QVPN project already serves as a prime example of this approach, validating quantum-safe networking protocols in a live operational environment while ensuring strict alignment with the emerging ETSI QKD and QSC specifications we actively contribute to'],
           [{ b: 'Advanced Research & Standardization:' }, ' We will move to applied research, focusing on advanced quantum protocols and algorithms to further strengthen our internal capabilities and intellectual property. This work will also feed directly into our contributions to the ETSI ISG QKD and ETSI CYBER_QSC specifications, including Application Interfaces (API) and Protection Profiles.'],
         ],
       },
-      { type: 'para', runs: ['By investing heavily in our team’s knowledge, strategic partnerships, and hands-on hardware evaluation, xFlow Tech is actively shaping a future where we utilize quantum technology to deliver unprecedented value and innovation.'] },
+      { type: 'para', runs: ['By investing heavily in our team’s knowledge, strategic partnerships, and hands-on hardware evaluation, xFlow is actively shaping a future where we utilize quantum technology to deliver unprecedented value and innovation.'] },
       { type: 'heading', text: 'Quantum Experiments' },
-      { type: 'para', runs: ['Our commitment to transparent and collaborative research is demonstrated through our public code contributions. Our team maintains strong alignment with the global open-source quantum ecosystem, ensuring that our research output reflects current best practices and actively contributes to the broader quantum community. Through continuous learning, experimentation, and standards-driven research, xFlow Tech collectively advances the development of robust, quantum-safe architectures. You can explore the technical depth of our work, including various Qiskit algorithm implementations and quantum simulations, on GitHub:'] },
+      { type: 'para', runs: ['Our commitment to transparent and collaborative research is demonstrated through our public code contributions. Our team maintains strong alignment with the global open-source quantum ecosystem, ensuring that our research output reflects current best practices and actively contributes to the broader quantum community. Through continuous learning, experimentation, and standards-driven research, xFlow collectively advances the development of robust, quantum-safe architectures. You can explore the technical depth of our work, including various Qiskit algorithm implementations and quantum simulations, on GitHub:'] },
     ],
   },
   'research-and-standardization': {
     blocks: [
-      { type: 'para', runs: ['xFlow Tech is a full-time member of European Telecommunication Standards Institute (ETSI) which sets standards for cutting technologies like NFV, MEC, IoT, Smart Cities, Augmented Reality. Engineers from xFlow Tech work closely with ETSI in different domains like Conformance and Interoperability testing, Development of Simulation and other Educational Tools based on the ETSI specifications, Export Support in Plugtests, and many more.'] },
+      { type: 'para', runs: ['xFlow is a full-time member of European Telecommunication Standards Institute (ETSI) which sets standards for cutting technologies like NFV, MEC, IoT, Smart Cities, Augmented Reality. Engineers from xFlow work closely with ETSI in different domains like Conformance and Interoperability testing, Development of Simulation and other Educational Tools based on the ETSI specifications, Export Support in Plugtests, and many more.'] },
       { type: 'para', runs: ['Following are the competencies and related work described in terms of our ETSI engagement and participation in Specialist Task Forces (STFs) and Testing Task Forces (TTFs):'] },
-      { type: 'para', runs: ['xFlow Tech also participates in different activities conducted by ETSI:'] },
+      { type: 'para', runs: ['xFlow also participates in different activities conducted by ETSI:'] },
       {
         type: 'list',
         ordered: false,
@@ -535,7 +535,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'software-development': {
     blocks: [
-      { type: 'para', runs: ['xFlow Tech provides software development services focused on building reliable, efficient, and maintainable systems. We follow established software development standards and a structured ', { b: 'Software Development Life Cycle (SDLC)' }, ' to ensure quality, consistency, and predictable outcomes. We work closely with our clients to understand their requirements and deliver solutions that meet both technical and business needs.'] },
+      { type: 'para', runs: ['xFlow provides software development services focused on building reliable, efficient, and maintainable systems. We follow established software development standards and a structured ', { b: 'Software Development Life Cycle (SDLC)' }, ' to ensure quality, consistency, and predictable outcomes. We work closely with our clients to understand their requirements and deliver solutions that meet both technical and business needs.'] },
       { type: 'heading', text: 'Our Services' },
       { type: 'heading', text: 'Software Development' },
       { type: 'para', runs: ['We design and develop high-performance software using C, C++, Golang, and Python, following industry-accepted coding standards, secure development practices, and structured development workflows.'] },
@@ -560,7 +560,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'sonic': {
     blocks: [
-      { type: 'para', runs: ['xFlow Tech Inc. is an active member of Community SONiC and has contributed in many ways to Community SONiC.'] },
+      { type: 'para', runs: ['xFlow Inc. is an active member of Community SONiC and has contributed in many ways to Community SONiC.'] },
       { type: 'para', runs: ['Our team of experts deeply understands SONiC and its capabilities, and we are here to help you get the most out of this cutting-edge technology.'] },
       { type: 'para', runs: ['Why is SONiC essential for data centers?'] },
       {
@@ -664,7 +664,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'web-application': {
     blocks: [
-      { type: 'para', runs: [{ b: 'xFlow Tech' }, ' provides end-to-end web application development services, covering design, development, deployment, and ongoing support. Our approach focuses on building reliable, scalable, and maintainable web applications that meet functional and performance requirements.'] },
+      { type: 'para', runs: [{ b: 'xFlow' }, ' provides end-to-end web application development services, covering design, development, deployment, and ongoing support. Our approach focuses on building reliable, scalable, and maintainable web applications that meet functional and performance requirements.'] },
       { type: 'heading', text: 'Our Web Application Services Include' },
       { type: 'heading', text: 'Custom Web Application Development' },
       { type: 'para', runs: ['Design and development of web applications tailored to specific business and technical needs.'] },

@@ -75,9 +75,11 @@ describe('content data integrity', () => {
     }
   });
 
-  it('service and product content never name the old brand', () => {
-    expect(JSON.stringify(SERVICE_CONTENT)).not.toMatch(/xFlow Research/);
-    expect(JSON.stringify(PRODUCT_CONTENT)).not.toMatch(/xFlow Research/);
+  it('service and product content never name a prior brand', () => {
+    for (const blob of [JSON.stringify(SERVICE_CONTENT), JSON.stringify(PRODUCT_CONTENT)]) {
+      expect(blob).not.toMatch(/xFlow Research/);
+      expect(blob).not.toMatch(/xFlow Tech/);
+    }
   });
 
   it('every page has a non-empty ordered section list', () => {

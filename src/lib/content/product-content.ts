@@ -6,7 +6,7 @@ import type { ServiceContent } from './types';
 export const PRODUCT_CONTENT: Record<string, ServiceContent> = {
   'traffic-classification-shaping': {
     blocks: [
-      { type: 'para', runs: [{ b: 'xFlow Tech' }, ' develops scalable ', { b: 'network traffic classification and shaping solutions' }, ' for enterprise and telecom customers. Our solutions are designed to handle ', { b: 'high-throughput traffic up to 400 Gbps' }, ', providing reliable performance under demanding network conditions.'] },
+      { type: 'para', runs: [{ b: 'xFlow' }, ' develops scalable ', { b: 'network traffic classification and shaping solutions' }, ' for enterprise and telecom customers. Our solutions are designed to handle ', { b: 'high-throughput traffic up to 400 Gbps' }, ', providing reliable performance under demanding network conditions.'] },
       { type: 'para', runs: ['We leverage ', { b: 'DPDK (Data Plane Development Kit)' }, ' and ', { b: 'SmartNICs' }, ' to deliver ', { b: 'efficient, low-latency packet processing' }, '. The solutions support:'] },
       {
         type: 'list',
@@ -34,7 +34,7 @@ export const PRODUCT_CONTENT: Record<string, ServiceContent> = {
   },
   'data-analytics': {
     blocks: [
-      { type: 'para', runs: [{ b: 'xFlow Tech' }, ' develops data analytics solutions for enterprise and telecom environments. These solutions leverage deep packet inspection (DPI), metadata extraction, and APIs to provide detailed visibility and insights into network traffic.'] },
+      { type: 'para', runs: [{ b: 'xFlow' }, ' develops data analytics solutions for enterprise and telecom environments. These solutions leverage deep packet inspection (DPI), metadata extraction, and APIs to provide detailed visibility and insights into network traffic.'] },
       { type: 'para', runs: ['Using DPDK and SmartNICs, the solution can handle high-throughput traffic up to 400 Gbps, delivering low-latency, high-performance analytics. Key capabilities include:'] },
       {
         type: 'list',
