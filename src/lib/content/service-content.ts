@@ -266,7 +266,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'nfv': {
     blocks: [
-      { type: 'para', runs: ['xFlow Inc. offers specialized services in Network Function Virtualization (NFV). Our focus in NFV is on Research and development related to NFVI, VNF, and MANO. We provide industry leading technology development that will enable you to quickly demonstrate, develop and market your ideas.'] },
+      { type: 'para', runs: ['xFlow offers specialized services in Network Function Virtualization (NFV). Our focus in NFV is on Research and development related to NFVI, VNF, and MANO. We provide industry leading technology development that will enable you to quickly demonstrate, develop and market your ideas.'] },
       { type: 'para', runs: ['We also offer our services to extend your existing projects/products in the revolutionary NFV domain. We bring agility to product development lifecycle by developing automation tools to quickly demonstrate and market your products in NFV domain.'] },
       { type: 'para', runs: ['We are actively involved in Research and Development in NFV and have successfully completed PoC projects with industry leaders in NFV.'] },
       { type: 'heading', text: 'vBRAS' },
@@ -560,7 +560,7 @@ export const SERVICE_CONTENT: Record<string, ServiceContent> = {
   },
   'sonic': {
     blocks: [
-      { type: 'para', runs: ['xFlow Inc. is an active member of Community SONiC and has contributed in many ways to Community SONiC.'] },
+      { type: 'para', runs: ['xFlow is an active member of Community SONiC and has contributed in many ways to Community SONiC.'] },
       { type: 'para', runs: ['Our team of experts deeply understands SONiC and its capabilities, and we are here to help you get the most out of this cutting-edge technology.'] },
       { type: 'para', runs: ['Why is SONiC essential for data centers?'] },
       {

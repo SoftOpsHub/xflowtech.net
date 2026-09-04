@@ -7,8 +7,9 @@ test.describe('contact page', () => {
     await expect(
       page.getByRole('heading', { name: 'X Flow Software Technology LLC' }),
     ).toBeVisible();
-    for (const entity of ['xFlow Inc.', 'xFlow Pvt. Ltd.']) {
-      await expect(page.getByRole('heading', { name: entity })).toHaveCount(0);
+    // Only the UAE office — the former Austin / Islamabad entries are gone.
+    for (const city of ['Austin', 'Islamabad']) {
+      await expect(page.getByText(city)).toHaveCount(0);
     }
 
     await expect(page.locator('a[href="mailto:info@xflowtech.net"]').first()).toBeVisible();
